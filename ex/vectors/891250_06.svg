@@ -4,119 +4,133 @@
 	 viewBox="0 0 1190.6 1190.6" style="enable-background:new 0 0 1190.6 1190.6;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFF200;stroke:#000000;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#F74646;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#61E545;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#EA75EA;stroke-miterlimit:10;}
-	.st4{clip-path:url(#SVGID_2_);}
-	.st5{font-family:'OpenSansCondensed-Bold';}
-	.st6{font-size:60px;}
-	.st7{font-family:'OpenSans-Light';}
-	.st8{font-size:16px;}
-	.st9{font-family:'EBGaramond-Italic';}
-	.st10{font-size:10px;}
+	.st1{fill:none;stroke:#9E005D;stroke-miterlimit:10;}
+	.st2{clip-path:url(#SVGID_4_);}
+	.st3{font-family:'OpenSansCondensed-Bold';}
+	.st4{font-size:60px;}
+	.st5{font-family:'OpenSans-Light';}
+	.st6{font-size:16px;}
+	.st7{font-family:'EBGaramond-Italic';}
+	.st8{font-size:10px;}
 </style>
 <title>Tavola disegno 1</title>
 <rect x="0.2" y="0.4" class="st0" width="1190.6" height="1190.6"/>
-<g id="Livello_1_1_">
-	<path class="st1" d="M61.8,60.2h239.5v239.5H61.8V60.2z M338.2,299.8h239.5V60.2H338.2V299.8z M614.6,299.8h239.5V60.2H614.6V299.8
-		z M891,299.8h239.5V60.2H891V299.8z M61.8,576.1h239.5V336.6H61.8V576.1z M338.2,576.1h239.5V336.6H338.2V576.1z M614.6,576.1
-		h239.5V336.6H614.6V576.1z M891,576.1h239.5V336.6H891V576.1z M61.8,852.5h239.5V613H61.8V852.5z M338.2,852.5h239.5V613H338.2
-		V852.5z M614.6,852.5h239.5V613H614.6V852.5z M891,852.5h239.5V613H891V852.5z M61.8,1128.9h239.5V889.4H61.8V1128.9z
-		 M338.2,1128.9h239.5V889.4H338.2V1128.9z M614.6,1128.9h239.5V889.4H614.6V1128.9z M891,1128.9h239.5V889.4H891V1128.9z"/>
+<rect x="60.9" y="60.8" class="st1" width="239.5" height="239.5"/>
+<rect x="613.7" y="60.8" class="st1" width="239.5" height="239.5"/>
+<rect x="890.1" y="60.8" class="st1" width="239.5" height="239.5"/>
+<rect x="60.9" y="337.1" class="st1" width="239.5" height="239.5"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="337.3" y="337.1" width="239.5" height="239.5"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);enable-background:new    ;">
+		
+			<image style="overflow:visible;" width="545" height="817" xlink:href="62B2B34.jpg"  transform="matrix(1.3064 0 0 1.3064 60.9443 61.4376)">
+		</image>
+	</g>
 </g>
-<g id="Livello_2_1_">
-	<rect x="61.9" y="60.3" class="st2" width="184.3" height="184.3"/>
-	<rect x="283" y="60.3" class="st2" width="184.3" height="184.3"/>
-	<rect x="504.1" y="60.3" class="st2" width="184.2" height="184.3"/>
-	<rect x="725.2" y="60.3" class="st2" width="184.3" height="184.3"/>
-	<rect x="946.3" y="60.3" class="st2" width="184.3" height="184.3"/>
-	<rect x="61.9" y="281.4" class="st2" width="184.3" height="184.3"/>
-	<rect x="283" y="281.4" class="st2" width="184.3" height="184.3"/>
-	<rect x="504.1" y="281.4" class="st2" width="184.2" height="184.3"/>
-	<rect x="725.2" y="281.4" class="st2" width="184.3" height="184.3"/>
-	<rect x="946.3" y="281.4" class="st2" width="184.3" height="184.3"/>
-	<rect x="61.9" y="502.5" class="st2" width="184.3" height="184.2"/>
-	<rect x="283" y="502.5" class="st2" width="184.3" height="184.2"/>
-	<rect x="504.1" y="502.5" class="st2" width="184.2" height="184.2"/>
-	<rect x="725.2" y="502.5" class="st2" width="184.3" height="184.2"/>
-	<rect x="946.3" y="502.5" class="st2" width="184.3" height="184.2"/>
-	<rect x="61.9" y="723.6" class="st2" width="184.3" height="184.3"/>
-	<rect x="283" y="723.6" class="st2" width="184.3" height="184.3"/>
-	<rect x="504.1" y="723.6" class="st2" width="184.2" height="184.3"/>
-	<rect x="725.2" y="723.6" class="st2" width="184.3" height="184.3"/>
-	<rect x="946.3" y="723.6" class="st2" width="184.3" height="184.3"/>
-	<rect x="61.9" y="944.7" class="st2" width="184.3" height="184.3"/>
-	<rect x="283" y="944.7" class="st2" width="184.3" height="184.3"/>
-	<rect x="504.1" y="944.7" class="st2" width="184.2" height="184.3"/>
-	<rect x="725.2" y="944.7" class="st2" width="184.3" height="184.3"/>
-	<rect x="946.3" y="944.7" class="st2" width="184.3" height="184.3"/>
-</g>
-<g id="Livello_3">
-	<rect x="61.8" y="59.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="246.1" y="59.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="430.4" y="59.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="614.6" y="59.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="798.8" y="59.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="983.1" y="59.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="61.8" y="243.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="246.1" y="243.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="428.4" y="243.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="612.6" y="243.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="796.8" y="243.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="981.1" y="243.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="61.8" y="427.8" class="st3" width="147.4" height="147.4"/>
-	<rect x="246.1" y="427.8" class="st3" width="147.4" height="147.4"/>
-	<rect x="428.4" y="427.8" class="st3" width="147.4" height="147.4"/>
-	<rect x="612.6" y="427.8" class="st3" width="147.4" height="147.4"/>
-	<rect x="796.8" y="427.8" class="st3" width="147.4" height="147.4"/>
-	<rect x="981.1" y="427.8" class="st3" width="147.4" height="147.4"/>
-	<rect x="61.8" y="612.1" class="st3" width="147.4" height="147.4"/>
-	<rect x="246.1" y="612.1" class="st3" width="147.4" height="147.4"/>
-	<rect x="428.4" y="612.1" class="st3" width="147.4" height="147.4"/>
-	<rect x="612.6" y="612.1" class="st3" width="147.4" height="147.4"/>
-	<rect x="796.8" y="612.1" class="st3" width="147.4" height="147.4"/>
-	<rect x="981.1" y="612.1" class="st3" width="147.4" height="147.4"/>
-	<rect x="61.8" y="796.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="246.1" y="796.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="430.4" y="796.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="614.6" y="796.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="798.8" y="796.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="983.1" y="796.3" class="st3" width="147.4" height="147.4"/>
-	<rect x="61.8" y="980.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="246.1" y="980.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="430.4" y="980.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="614.6" y="980.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="798.8" y="980.6" class="st3" width="147.4" height="147.4"/>
-	<rect x="983.1" y="980.6" class="st3" width="147.4" height="147.4"/>
-</g>
-<image style="overflow:visible;enable-background:new    ;" width="185" height="185" xlink:href="705F762E.jpg"  transform="matrix(1.3037 0 0 1.3037 337.5735 335.5439)">
-</image>
+<rect x="613.7" y="337.1" class="st1" width="239.5" height="239.5"/>
+<rect x="890.1" y="337.1" class="st1" width="239.5" height="239.5"/>
+<rect x="60.9" y="613.5" class="st1" width="239.5" height="239.5"/>
+<rect x="337.3" y="613.5" class="st1" width="239.5" height="239.5"/>
+<rect x="613.7" y="613.5" class="st1" width="239.5" height="239.5"/>
+<rect x="890.1" y="613.5" class="st1" width="239.5" height="239.5"/>
+<rect x="60.9" y="889.9" class="st1" width="239.5" height="239.5"/>
+<rect x="337.3" y="889.9" class="st1" width="239.5" height="239.5"/>
+<rect x="613.7" y="889.9" class="st1" width="239.5" height="239.5"/>
+<rect x="890.1" y="889.9" class="st1" width="239.5" height="239.5"/>
+<rect x="337.3" y="60.8" class="st1" width="239.5" height="239.5"/>
+<rect x="60.9" y="60.8" class="st1" width="184.3" height="184.3"/>
+<rect x="282" y="60.8" class="st1" width="184.3" height="184.3"/>
+<rect x="503.1" y="60.8" class="st1" width="184.3" height="184.3"/>
+<rect x="724.3" y="60.8" class="st1" width="184.3" height="184.3"/>
+<rect x="945.4" y="60.8" class="st1" width="184.3" height="184.3"/>
+<rect x="60.9" y="281.9" class="st1" width="184.3" height="184.3"/>
+<rect x="282" y="281.9" class="st1" width="184.3" height="184.3"/>
+<rect x="503.1" y="281.9" class="st1" width="184.3" height="184.3"/>
+<rect x="724.3" y="281.9" class="st1" width="184.3" height="184.3"/>
+<rect x="945.4" y="281.9" class="st1" width="184.3" height="184.3"/>
+<rect x="60.9" y="503" class="st1" width="184.3" height="184.3"/>
+<rect x="282" y="503" class="st1" width="184.3" height="184.3"/>
+<rect x="503.1" y="503" class="st1" width="184.3" height="184.3"/>
+<rect x="724.3" y="503" class="st1" width="184.3" height="184.3"/>
+<rect x="945.4" y="503" class="st1" width="184.3" height="184.3"/>
+<rect x="60.9" y="724.1" class="st1" width="184.3" height="184.3"/>
+<rect x="282" y="724.1" class="st1" width="184.3" height="184.3"/>
+<rect x="503.1" y="724.1" class="st1" width="184.3" height="184.3"/>
+<rect x="724.3" y="724.1" class="st1" width="184.3" height="184.3"/>
+<rect x="945.4" y="724.1" class="st1" width="184.3" height="184.3"/>
+<rect x="60.9" y="945.2" class="st1" width="184.3" height="184.3"/>
+<rect x="282" y="945.2" class="st1" width="184.3" height="184.3"/>
+<rect x="503.1" y="945.2" class="st1" width="184.3" height="184.3"/>
+<rect x="724.3" y="945.2" class="st1" width="184.3" height="184.3"/>
+<rect x="945.4" y="945.2" class="st1" width="184.3" height="184.3"/>
+<rect x="60.9" y="60.8" class="st1" width="147.4" height="147.4"/>
+<rect x="245.2" y="60.8" class="st1" width="147.4" height="147.4"/>
+<rect x="429.4" y="60.8" class="st1" width="147.4" height="147.4"/>
+<rect x="613.7" y="60.8" class="st1" width="147.4" height="147.4"/>
+<rect x="798" y="60.8" class="st1" width="147.4" height="147.4"/>
+<rect x="982.2" y="60.8" class="st1" width="147.4" height="147.4"/>
+<rect x="60.9" y="245" class="st1" width="147.4" height="147.4"/>
+<rect x="429.4" y="245" class="st1" width="147.4" height="147.4"/>
+<rect x="613.7" y="245" class="st1" width="147.4" height="147.4"/>
+<rect x="798" y="245" class="st1" width="147.4" height="147.4"/>
+<rect x="982.2" y="245" class="st1" width="147.4" height="147.4"/>
+<rect x="60.9" y="429.3" class="st1" width="147.4" height="147.4"/>
+<rect x="245.2" y="429.3" class="st1" width="147.4" height="147.4"/>
+<rect x="429.4" y="429.3" class="st1" width="147.4" height="147.4"/>
+<rect x="613.7" y="429.3" class="st1" width="147.4" height="147.4"/>
+<rect x="798" y="429.3" class="st1" width="147.4" height="147.4"/>
+<rect x="982.2" y="429.3" class="st1" width="147.4" height="147.4"/>
+<rect x="60.9" y="613.5" class="st1" width="147.4" height="147.4"/>
+<rect x="245.2" y="613.5" class="st1" width="147.4" height="147.4"/>
+<rect x="429.4" y="613.5" class="st1" width="147.4" height="147.4"/>
+<rect x="613.7" y="613.5" class="st1" width="147.4" height="147.4"/>
+<rect x="798" y="613.5" class="st1" width="147.4" height="147.4"/>
+<rect x="982.2" y="613.5" class="st1" width="147.4" height="147.4"/>
+<rect x="60.9" y="797.8" class="st1" width="147.4" height="147.4"/>
+<rect x="245.2" y="797.8" class="st1" width="147.4" height="147.4"/>
+<rect x="429.4" y="797.8" class="st1" width="147.4" height="147.4"/>
+<rect x="613.7" y="797.8" class="st1" width="147.4" height="147.4"/>
+<rect x="798" y="797.8" class="st1" width="147.4" height="147.4"/>
+<rect x="982.2" y="797.8" class="st1" width="147.4" height="147.4"/>
+<rect x="60.9" y="982" class="st1" width="147.4" height="147.4"/>
+<rect x="245.2" y="982" class="st1" width="147.4" height="147.4"/>
+<rect x="429.4" y="982" class="st1" width="147.4" height="147.4"/>
+<rect x="613.7" y="982" class="st1" width="147.4" height="147.4"/>
+<rect x="798" y="982" class="st1" width="147.4" height="147.4"/>
+<rect x="982.2" y="982" class="st1" width="147.4" height="147.4"/>
 <g>
 	<g>
 		<g>
-			<defs>
-				<circle id="SVGID_1_" cx="870.5" cy="317.3" r="249.8"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-			</clipPath>
-			<g class="st4">
-				
-					<image style="overflow:visible;enable-background:new    ;" width="500" height="750" xlink:href="891250_05.estensione.jpg"  transform="matrix(1 0 0 1 620.5088 -40.9569)">
-				</image>
+			<g>
+				<g>
+					<defs>
+						<circle id="SVGID_3_" cx="871.7" cy="318.7" r="249.8"/>
+					</defs>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st2">
+						
+							<image style="overflow:visible;enable-background:new    ;" width="500" height="750" xlink:href="891250_05.estensione.jpg"  transform="matrix(1 0 0 1 621.6618 -39.5482)">
+						</image>
+					</g>
+				</g>
 			</g>
 		</g>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 61.9087 104.9429)" class="st5 st6">Grafica vettoriale</text>
-<text transform="matrix(1 0 0 1 61.859 137.5576)" class="st7 st8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam no</text>
-<text transform="matrix(1 0 0 1 559.559 137.5576)" class="st7 st8">-</text>
-<text transform="matrix(1 0 0 1 61.859 161.5576)" class="st7 st8">nummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </text>
-<text transform="matrix(1 0 0 1 61.859 185.5576)" class="st7 st8">volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </text>
-<text transform="matrix(1 0 0 1 61.859 209.5576)" class="st7 st8">ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </text>
-<text transform="matrix(1 0 0 1 61.859 233.5576)" class="st7 st8">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo</text>
-<text transform="matrix(1 0 0 1 563.359 233.5576)" class="st7 st8">-</text>
-<text transform="matrix(1 0 0 1 61.859 257.5576)" class="st7 st8">lestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et </text>
-<text transform="matrix(1 0 0 1 61.859 281.5576)" class="st7 st8">accumsan et iusto odio dignissim qui blandit praesent luptatum zzril </text>
-<text transform="matrix(1 0 0 1 629.7178 83.6657)" class="st9 st10">Foresta di sequoie</text>
+<text transform="matrix(1 0 0 1 60.9941 112.9429)" class="st3 st4">Grafica vettoriale</text>
+<text transform="matrix(1 0 0 1 60.9444 145.5576)" class="st5 st6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam no</text>
+<text transform="matrix(1 0 0 1 60.9444 169.5576)" class="st5 st6">nummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </text>
+<text transform="matrix(1 0 0 1 60.9444 193.5576)" class="st5 st6">volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </text>
+<text transform="matrix(1 0 0 1 60.9444 217.5576)" class="st5 st6">ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </text>
+<text transform="matrix(1 0 0 1 60.9444 241.5576)" class="st5 st6">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo</text>
+<text transform="matrix(1 0 0 1 60.9444 265.5576)" class="st5 st6">lestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et </text>
+<text transform="matrix(1 0 0 1 60.9444 289.5576)" class="st5 st6">accumsan et iusto odio dignissim qui blandit praesent luptatum zzril </text>
+<text transform="matrix(1 0 0 1 628.8032 91.6657)" class="st7 st8">Foresta di sequoie</text>
 </svg>
