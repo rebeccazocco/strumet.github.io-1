@@ -104,32 +104,36 @@
 	<rect x="60.8" y="60.5" class="st3" width="147.4" height="147.4"/>
 </g>
 <g>
-	<defs>
-		<rect id="SVGID_1_" x="889.5" y="59.9" width="240.5" height="240.8"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g class="st4">
-		
-			<image style="overflow:visible;enable-background:new    ;" width="2448" height="3264" xlink:href="890840_03.jpg"  transform="matrix(0.15 0 0 0.15 794.48 27.44)">
-		</image>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="889.5" y="59.9" width="240.5" height="240.8"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st4">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="2448" height="3264" xlink:href="890840_03.jpg"  transform="matrix(0.15 0 0 0.15 794.48 27.44)">
+			</image>
+		</g>
 	</g>
 </g>
 <g>
-	<defs>
-		<circle id="SVGID_3_" cx="688.6" cy="207.1" r="141.7"/>
-	</defs>
-	<clipPath id="SVGID_4_">
-		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-	</clipPath>
-	<g class="st5">
-		
-			<image style="overflow:visible;enable-background:new    ;" width="2448" height="3264" xlink:href="890840_05.jpg"  transform="matrix(0.16 0 0 0.16 494.5 -89.88)">
-		</image>
+	<g>
+		<defs>
+			<circle id="SVGID_3_" cx="688.6" cy="207.1" r="141.7"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st5">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="2448" height="3264" xlink:href="890840_05.jpg"  transform="matrix(0.16 0 0 0.16 494.5 -89.88)">
+			</image>
+		</g>
 	</g>
 </g>
-<text transform="matrix(1 0 0 1 62.49 113.7701)" class="st6 st7">Alessandro Leone</text>
+<text transform="matrix(1 0 0 1 62.49 113.7702)" class="st6 st7">Alessandro Leone</text>
 <text transform="matrix(1 0 0 1 61.53 258.25)" class="st8 st9">Lorem ipsum dolor sit amet, consectetuer </text>
 <text transform="matrix(1 0 0 1 61.53 282.25)" class="st8 st9">adipiscing elit, sed diam nonummy nibh </text>
 <text transform="matrix(1 0 0 1 61.53 306.25)" class="st8 st9">euismod tincidunt ut laoreet dolore magna </text>
@@ -141,8 +145,8 @@
 <text transform="matrix(1 0 0 1 61.53 450.25)" class="st8 st9">velit esse molestie consequat, vel illum </text>
 <text transform="matrix(1 0 0 1 61.53 474.25)" class="st8 st9">dolore eu feugiat nulla facilisis at vero eros </text>
 <text transform="matrix(1 0 0 1 61.53 498.25)" class="st8 st9">et accumsan et iusto odio dignissim qui </text>
-<text transform="matrix(1 0 0 1 61.53 522.2501)" class="st8 st9">blandit praesent luptatum zzril delenit </text>
-<text transform="matrix(1 0 0 1 61.53 546.2501)" class="st8 st9">augue duis dolore te feugait nulla facilisi.</text>
+<text transform="matrix(1 0 0 1 61.53 522.2502)" class="st8 st9">blandit praesent luptatum zzril delenit </text>
+<text transform="matrix(1 0 0 1 61.53 546.2502)" class="st8 st9">augue duis dolore te feugait nulla facilisi.</text>
 <text transform="matrix(1 0 0 1 778.23 330.85)" class="st10 st11">L</text>
 <text transform="matrix(1 0 0 1 784.06 330.85)" class="st10 st11">’</text>
 <text transform="matrix(1 0 0 1 785.76 330.85)" class="st10 st11">a</text>
@@ -155,5 +159,19 @@
 <text transform="matrix(1 0 0 1 828.52 330.85)" class="st10 st11">a</text>
 <text transform="matrix(1 0 0 1 833.23 330.85)" class="st10 st11">bria</text>
 <circle class="st12" cx="908.3" cy="509.5" r="187"/>
-<text transform="matrix(1 0 0 1 886.9175 334.6276)"><tspan x="0" y="0" class="st8 st9">Lorem </tspan><tspan x="-72.4" y="24" class="st8 st9">ipsum dolor sit amet, consectetuer </tspan><tspan x="-105" y="48" class="st8 st9">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="-127" y="72" class="st8 st9">euismod tincidunt ut laoreet dolore magna aliquam erat </tspan><tspan x="-142.7" y="96" class="st8 st9">volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </tspan><tspan x="-153.7" y="120" class="st8 st9">tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo </tspan><tspan x="-160.9" y="144" class="st8 st9">consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </tspan><tspan x="-164.8" y="168" class="st8 st9">velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at </tspan><tspan x="-164.8" y="192" class="st8 st9">vero eros et accumsan et iusto odio dignissim qui blandit praesent </tspan><tspan x="-161.1" y="216" class="st8 st9">luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</tspan><tspan x="-153.9" y="240" class="st8 st9">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam </tspan><tspan x="-143" y="264" class="st8 st9">nonummy nibh euismod tincidunt ut laoreet dolore magna </tspan><tspan x="-127.5" y="288" class="st8 st9">aliquam erat volutpat. Ut wisi enim ad minim veniam, </tspan><tspan x="-105.7" y="312" class="st8 st9">quis nostrud exerci tation ullamcorper suscipit </tspan><tspan x="-73.5" y="336" class="st8 st9">lobortis </tspan></text>
+<text transform="matrix(1 0 0 1 886.9175 334.6276)" class="st8 st9">Lorem </text>
+<text transform="matrix(1 0 0 1 814.5175 358.6276)" class="st8 st9">ipsum dolor sit amet, consectetuer </text>
+<text transform="matrix(1 0 0 1 781.9175 382.6276)" class="st8 st9">adipiscing elit, sed diam nonummy nibh </text>
+<text transform="matrix(1 0 0 1 759.9175 406.6276)" class="st8 st9">euismod tincidunt ut laoreet dolore magna aliquam erat </text>
+<text transform="matrix(1 0 0 1 744.2175 430.6276)" class="st8 st9">volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </text>
+<text transform="matrix(1 0 0 1 733.2175 454.6276)" class="st8 st9">tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo </text>
+<text transform="matrix(1 0 0 1 726.0175 478.6276)" class="st8 st9">consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </text>
+<text transform="matrix(1 0 0 1 722.1175 502.6276)" class="st8 st9">velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at </text>
+<text transform="matrix(1 0 0 1 722.1175 526.6276)" class="st8 st9">vero eros et accumsan et iusto odio dignissim qui blandit praesent </text>
+<text transform="matrix(1 0 0 1 725.8175 550.6276)" class="st8 st9">luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</text>
+<text transform="matrix(1 0 0 1 733.0175 574.6276)" class="st8 st9">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam </text>
+<text transform="matrix(1 0 0 1 743.9175 598.6276)" class="st8 st9">nonummy nibh euismod tincidunt ut laoreet dolore magna </text>
+<text transform="matrix(1 0 0 1 759.4175 622.6276)" class="st8 st9">aliquam erat volutpat. Ut wisi enim ad minim veniam, </text>
+<text transform="matrix(1 0 0 1 781.2175 646.6276)" class="st8 st9">quis nostrud exerci tation ullamcorper suscipit </text>
+<text transform="matrix(1 0 0 1 813.4175 670.6276)" class="st8 st9">lobortis </text>
 </svg>
