@@ -5,6 +5,11 @@ body {
   margin: auto;
 
 }
+.your-style {
+    font-family: 'Roboto Lt';
+    font-weight: 300;
+    font-style: normal;
+}
 .up {
   width: auto;
   height: 80px;
