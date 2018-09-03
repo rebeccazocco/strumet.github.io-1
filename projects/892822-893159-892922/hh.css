@@ -1,0 +1,132 @@
+/* hh arch */
+body {
+  background-color: #FFFFFF;
+  max-height: 400px;
+  margin: auto;
+
+}
+.up {
+  width: auto;
+  height: 80px;
+  margin:none;
+  background-color: #2F2F2F;
+}
+      .HH {
+          padding: 10px;
+          width: 100px;
+          height: 100px;
+          margin: auto;
+        }
+
+
+
+.middl {
+  width: 1100px;
+  height: 500px;
+  display: center;
+  margin: auto;
+  background-color: #F7F7F7;
+}
+
+        .bout3{
+          width:400px;
+          height:50px;
+          padding: 20px;
+          margin: auto;
+          text-align: center;
+              }
+
+
+        .bout3 p {
+          font-size: 20px;
+          font-family: verdana;
+          text-decoration: none;
+          text-align:justify;
+        }
+
+
+          .bout2{
+            width:400px;
+            height:200px;
+            padding: 20px;
+            margin: auto;
+            text-align: center;
+          }
+
+          .bout2 p {
+            font-size: 20px;
+            font-family: verdana;
+            text-decoration: none;
+            text-align:justify;
+          }
+
+
+
+.middledown {
+  width:auto;
+  height: 80px;
+  background-color: #2F2F2F;
+  margin: auto;
+  padding: none;
+  }
+        .md2 {
+          width:600px;
+          margin: auto;
+          display: center;
+        }
+
+        .one {
+          padding: 5px;
+          height: 50px;
+          width: 100px;
+          float: left;
+          margin: 10px 20px 10px 20px;
+          text-align: center;
+          line-height: 47px;
+        }
+
+        .one a{
+          font-size: 12px;
+          font-family: verdana;
+          text-transform: uppercase;
+          color: #ffffff;
+          text-decoration: none;
+          font-weight: lighter;
+
+        }
+
+.down {
+    width: auto;
+    height: 80px;
+    margin: auto;
+    padding: none;
+    margin-right: none;
+    background-color: #2F2F2F;
+          }
+
+          .fb .ig {
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            display: inline;
+            }
+          .fb{
+            position: relative;
+            top: 20px;
+            left: 30px;
+          }
+          .ig {
+            position: relative;
+            bottom: 5px;
+            left: 60px;
+          }
+          .polimi {
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+            float: right;
+            margin: 10px;
+            position: relative;
+            bottom: 65px;
+              }
