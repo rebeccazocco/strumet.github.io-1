@@ -1,0 +1,56 @@
+img.immagine1 {
+    /* size: 13px; */
+    width: 160px;
+}
+/* mi prendo il tag img che ha la classe immagine1
+*/
+
+
+div.elenco1 {
+    text-align: justify;
+    margin-left: 100px;
+}
+
+
+body {
+    background-color: #FFCCCC;
+    /*font-family: 'Dancing Script', cursive; */
+     font-family: 'Cookie', cursive;
+}
+/*
+se io volessi un'img di sfondo dovrei usare l'istruzione background-image: url("percorso/percorso/nome.estensione");
+
+*/
+
+p.tempolibero {
+    background-color: white;
+}
+
+h1.nome  {
+    background-color: lemonchiffon;
+    font-family: 'Lobster', cursive;
+
+}
+
+
+small {
+    font-size: 10px;
+    /* text-align: center; */
+    margin-left: 90px;
+}
+
+
+footer {
+    padding: 2px;
+    border: solid;
+}
+img.logo {
+    /* size: 13px; */
+    width: 60px;
+}
+
+
+img.jpg {
+    /* size: 13px; */
+    width: 160px;
+}
