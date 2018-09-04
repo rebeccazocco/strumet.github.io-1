@@ -4,6 +4,11 @@ body {
   margin: auto;
 }
 
+.your-style {
+    font-family: 'Roboto Lt';
+    font-weight: 300;
+    font-style: normal;
+}
 .up {
   width: auto;
   height: 80px;
@@ -31,7 +36,10 @@ body {
   height: auto;
   margin: auto;
   background-color: ##F7F7F7;
-  text-align: center;
+  text-align:justify;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: bold;
 }
 
     .title {
@@ -40,7 +48,9 @@ body {
       margin:auto;
       padding: 25px;
       background-color: ##F7F7F7;
-
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 22px;
     }
     .basover {
       width: 600px;
@@ -67,8 +77,8 @@ body {
           }
 
     .par1 {
-      width: 920px;
-      height: 150px;
+      width: 800px;
+      height: 170px;
       margin: auto;
       padding: 20px;
       background-color: #F7F7F7;
@@ -76,31 +86,32 @@ body {
 
     }
     .parmap {
-      width: 920px;
+      width: 800px;
       height: 250px;
       background-color: #F7F7F7;
       margin: auto;
     }
             .par2 {
-              width: 500px;
+              width: 300px;
               height: 200px;
               padding: 40px;
               float: left;
+              font-weight: normal;
             }
 
             .par2 q{
               font-family:sans-serif;
             }
             .maps {
-              width: 250px;
+              width: 300px;
               height: 250px;
-              margin: auto;
+
               float: right;
             }
 
     .par4 {
-      width: 920px;
-      height: 215px;
+      width: 800px;
+      height: 275px;
       margin: 10px auto;
       padding: 20px;
 
@@ -126,7 +137,7 @@ body {
                       height: 300px;
                       margin: auto;
                       float: left;
-
+                      padding: 10px;
                     }
 .middledown {
   width: auto;

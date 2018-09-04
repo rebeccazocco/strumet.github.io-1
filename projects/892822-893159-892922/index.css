@@ -1,4 +1,5 @@
 /* HOME */
+html {overflow: hidden;}
 body {
   background-color: #000000;
   opacity:0.90;

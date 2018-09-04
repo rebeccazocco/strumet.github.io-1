@@ -4,6 +4,11 @@ body {
   max-height: 600px;
   margin: auto;
 }
+.your-style {
+    font-family: 'Roboto Lt';
+    font-weight: 300;
+    font-style: normal;
+}
 .up {
   width: auto;
   height: 80px;
@@ -25,6 +30,8 @@ body {
   display: center;
   margin: auto;
   background-color: #F7F7F7;
+  font-family: roboto;
+  font-weight: bold;
 }
 
         .bout3{
@@ -38,7 +45,6 @@ body {
 
         .bout3 p {
           font-size: 16px;
-          font-family: verdana;
           text-decoration: none;
           text-align:justify;
         }
@@ -54,7 +60,6 @@ body {
 
           .bout2 p {
             font-size: 14px;
-            font-family: verdana;
             text-decoration: none;
             text-align:justify;
           }
@@ -67,6 +72,7 @@ body {
   background-color: #2F2F2F;
   margin: auto;
   padding: none;
+  font-family: verdana;
   }
         .md2 {
           width:600px;
@@ -86,7 +92,6 @@ body {
 
         .one a{
           font-size: 12px;
-          font-family: verdana;
           text-transform: uppercase;
           color: #ffffff;
           text-decoration: none;
