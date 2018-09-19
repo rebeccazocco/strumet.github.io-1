@@ -1,0 +1,1969 @@
+%!PS-Adobe-3.0
+%%Title: slides_list.js
+%%For: mf
+%%Creator: VIM - Vi IMproved 8.0 (2016 Sep 12)
+%%CreationDate: Tue Sep 18 13:33:07 2018
+%%DocumentData: Clean8Bit
+%%Orientation: Portrait
+%%Pages: (atend)
+%%PageOrder: Ascend
+%%BoundingBox: 59 49 564 800
+%%DocumentMedia: A4 595 842 0 () ()
+%%DocumentNeededResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%DocumentSuppliedResources: procset VIM-Prolog 1.4 1
+%%+ encoding VIM-latin1 1.0 0
+%%Requirements: duplex collate color
+%%EndComments
+%%BeginDefaults
+%%PageResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%PageMedia: A4
+%%EndDefaults
+%%BeginProlog
+%%BeginResource: procset VIM-Prolog
+%%BeginDocument: /usr/share/vim/vim80/print/prolog.ps
+%!PS-Adobe-3.0 Resource-ProcSet
+%%Title: VIM-Prolog
+%%Version: 1.4 1
+%%EndComments
+% Editing of this file is NOT RECOMMENDED.  You run a very good risk of causing
+% all PostScript printing from VIM failing if you do.  PostScript is not called
+% a write-only language for nothing!
+/packedarray where not{userdict begin/setpacking/pop load def/currentpacking
+false def end}{pop}ifelse/CP currentpacking def true setpacking
+/bd{bind def}bind def/ld{load def}bd/ed{exch def}bd/d/def ld
+/db{dict begin}bd/cde{currentdict end}bd
+/T true d/F false d
+/SO null d/sv{/SO save d}bd/re{SO restore}bd
+/L2 systemdict/languagelevel 2 copy known{get exec}{pop pop 1}ifelse 2 ge d
+/m/moveto ld/s/show ld /ms{m s}bd /g/setgray ld/r/setrgbcolor ld/sp{showpage}bd
+/gs/gsave ld/gr/grestore ld/cp/currentpoint ld
+/ul{gs UW setlinewidth cp UO add 2 copy newpath m 3 1 roll add exch lineto
+stroke gr}bd
+/bg{gs r cp BO add 4 -2 roll rectfill gr}bd
+/sl{90 rotate 0 exch translate}bd
+L2{
+/sspd{mark exch{setpagedevice}stopped cleartomark}bd
+/nc{1 db/NumCopies ed cde sspd}bd
+/sps{3 db/Orientation ed[3 1 roll]/PageSize ed/ImagingBBox null d cde sspd}bd
+/dt{2 db/Tumble ed/Duplex ed cde sspd}bd
+/c{1 db/Collate ed cde sspd}bd
+}{
+/nc{/#copies ed}bd
+/sps{statusdict/setpage get exec}bd
+/dt{statusdict/settumble 2 copy known{get exec}{pop pop pop}ifelse
+statusdict/setduplexmode 2 copy known{get exec}{pop pop pop}ifelse}bd
+/c{pop}bd
+}ifelse
+/ffs{findfont exch scalefont d}bd/sf{setfont}bd
+/ref{1 db findfont dup maxlength dict/NFD ed{exch dup/FID ne{exch NFD 3 1 roll
+put}{pop pop}ifelse}forall/Encoding findresource dup length 256 eq{NFD/Encoding
+3 -1 roll put}{pop}ifelse NFD dup/FontType get 3 ne{/CharStrings}{/CharProcs}
+ifelse 2 copy known{2 copy get dup maxlength dict copy[/questiondown/space]{2
+copy known{2 copy get 2 index/.notdef 3 -1 roll put pop exit}if pop}forall put
+}{pop pop}ifelse dup NFD/FontName 3 -1 roll put NFD definefont pop end}bd
+CP setpacking
+(\004)cvn{}bd
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%BeginResource: encoding VIM-latin1
+%%BeginDocument: /usr/share/vim/vim80/print/latin1.ps
+%!PS-Adobe-3.0 Resource-Encoding
+%%Title: VIM-latin1
+%%Version: 1.0 0
+%%EndComments
+/VIM-latin1[
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma /minus /period /slash
+/zero /one /two /three /four /five /six /seven
+/eight /nine /colon /semicolon /less /equal /greater /question
+/at /A /B /C /D /E /F /G
+/H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W
+/X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+/grave /a /b /c /d /e /f /g
+/h /i /j /k /l /m /n /o
+/p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section
+/dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
+/degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
+/Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
+/Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
+/agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+/egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
+/oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis]
+/Encoding defineresource pop
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%EndProlog
+%%BeginSetup
+595 842 0 sps
+1 nc
+T F dt
+T c
+%%IncludeResource: font Courier
+/_F0 /VIM-latin1 /Courier ref
+/F0 10 /_F0 ffs
+%%IncludeResource: font Courier-Bold
+/_F1 /VIM-latin1 /Courier-Bold ref
+/F1 10 /_F1 ffs
+%%IncludeResource: font Courier-Oblique
+/_F2 /VIM-latin1 /Courier-Oblique ref
+/F2 10 /_F2 ffs
+%%IncludeResource: font Courier-BoldOblique
+/_F3 /VIM-latin1 /Courier-BoldOblique ref
+/F3 10 /_F3 ffs
+/UO -1 d
+/UW 0.5 d
+/BO -2.5 d
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(slides_list.js                                                                Page 1)59.5 792.4 ms
+F0 sf
+0.753 0 0 r
+(// )59.5 772.4 ms
+0 g
+(TODO)s
+0.753 0 0 r
+( function to switch beetwen local and remote)s
+(// )59.5 762.4 ms
+0 g
+(TODO)s
+0.753 0 0 r
+( add footer and bibliography)s
+0 g
+(LOCAL = )59.5 752.4 ms
+0 0 0.753 r
+(true)s
+0 g
+(;)s
+0.502 0.502 0 r
+(var)59.5 732.4 ms
+0 g
+( lesson_slides = )s
+0.502 0.502 0 r
+([)s
+0 g
+(    )59.5 722.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(   )s
+(    )59.5 712.4 ms
+0.753 0 0 r
+(//  Titolo)s
+0 g
+(        )59.5 702.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 692.4 ms
+0 0 0.753 r
+('Curve')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 682.4 ms
+0 0 0.753 r
+('...ovvero come rappresentare le curve in Computer Graphics')s
+0 g
+(,)s
+(        )59.5 672.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(    )59.5 652.4 ms
+0.753 0 0 r
+(//  Sommario argomenti)s
+0 g
+(        )59.5 642.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 632.4 ms
+0 0 0.753 r
+('Argomenti trattati:')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 622.4 ms
+0 0 0.753 r
+('<ul>')s
+0 g
+( +)s
+(                )59.5 612.4 ms
+0 0 0.753 r
+('<li><em>Computer Graphics</em> ed ambito di riferimento per l)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(inte)s
+(rior design</li>')59.5 602.4 ms
+0 g
+( + )s
+(                )59.5 592.4 ms
+0 0 0.753 r
+('<li>Il problema della rappresentazione digitale delle curve</li>')s
+0 g
+( +)s
+( )59.5 582.4 ms
+(                )59.5 572.4 ms
+0 0 0.753 r
+('<li>Le curve NURBS</li>')s
+0 g
+( + )s
+(                )59.5 562.4 ms
+0 0 0.753 r
+('<li>La continuità delle curve</li>')s
+0 g
+( + )s
+(                )59.5 552.4 ms
+0 0 0.753 r
+('<li>Le curve Bezier</li>')s
+0 g
+( + )s
+(                )59.5 542.4 ms
+0 0 0.753 r
+('<li>Gli algoritmi di suddivisione</li>')s
+0 g
+( + )s
+(                )59.5 532.4 ms
+0 0 0.753 r
+('<li>L)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(algoritmo di suddivisione di Chaikin</li>')s
+0 g
+( + )s
+(                )59.5 522.4 ms
+0 0 0.753 r
+('<li>L)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(algoritmo di suddivisione Catmull-Clark</li>')s
+0 g
+(,)s
+(            )59.5 512.4 ms
+0 0 0.753 r
+('</ul>')s
+0 g
+(,)s
+(        )59.5 502.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 492.4 ms
+(    )59.5 482.4 ms
+0.753 0 0 r
+(//  In breve)s
+0 g
+(        )59.5 472.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 462.4 ms
+0 0 0.753 r
+('In sostanza')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('...quello che dobbiamo portarci a casa')s
+0 g
+(, )s
+(            )59.5 452.4 ms
+0 0 0.753 r
+('<ul>')s
+0 g
+( +)s
+(            )59.5 442.4 ms
+0 0 0.753 r
+('   <li>Tutti gli oggetti contengono parti curve</li>')s
+0 g
+( +)s
+(            )59.5 432.4 ms
+0 0 0.753 r
+('   <li>In CG le curve sono definite attraverso un algoritmo di suddivis)s
+(ione</li>')59.5 422.4 ms
+0 g
+( +)s
+(            )59.5 412.4 ms
+0 0 0.753 r
+('</ul>')s
+0 g
+( + )s
+(            )59.5 402.4 ms
+0 0 0.753 r
+('<p class="fragment">...ergo...</p>')s
+0 g
+( + )s
+(            )59.5 392.4 ms
+0 0 0.753 r
+('<p class="fragment">...su <strong>tutti i modelli</strong> prodotti dur)s
+(ante il corso dovrà essere applicato ')59.5 382.4 ms
+0 g
+( +)s
+(            )59.5 372.4 ms
+0 0 0.753 r
+('<strong>l)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(algoritmo di suddivisione</strong></p>')s
+0 g
+(,)s
+(        )59.5 362.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(    )59.5 352.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+0.753 0 0 r
+(//  partiamo dal 1995 -> Toy story video)59.5 332.4 ms
+0 g
+(    )59.5 322.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(        )59.5 312.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 302.4 ms
+0 0 0.753 r
+('Toy story video')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility: hidden"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            LOCAL?)59.5 292.4 ms
+0 0 0.753 r
+('')s
+0 g
+(:)s
+0 0 0.753 r
+('<div class="video-background">')s
+0 g
+( +)s
+(                )59.5 282.4 ms
+0 0 0.753 r
+('<div class="video-foreground">')s
+0 g
+( +)s
+(                    )59.5 272.4 ms
+0 0 0.753 r
+('<iframe src="https://www.youtube.com/embed/rNk1Wi8SvNc?rel=0&sh)s
+(owinfo=0&start=30&controls=0&loop=1" ')59.5 262.4 ms
+0 g
+( +)s
+(                    )59.5 252.4 ms
+0 0 0.753 r
+('frameborder="0" allow="autoplay; encrypted-media" allowfullscre)s
+(en></iframe>')59.5 242.4 ms
+0 g
+( +)s
+(                )59.5 232.4 ms
+0 0 0.753 r
+('</div>')s
+0 g
+( +)s
+(            )59.5 222.4 ms
+0 0 0.753 r
+('</div>')s
+0 g
+(,)s
+(            LOCAL?)59.5 212.4 ms
+0.502 0.502 0 r
+({)s
+0 0 0.753 r
+('data-background-video')s
+0 g
+(: )s
+0 0 0.753 r
+("local_img/toy_story.mp4")s
+0 g
+(, )s
+0 0 0.753 r
+('data-backgro)s
+(und-transition')59.5 202.4 ms
+0 g
+(: )s
+0 0 0.753 r
+('zoom')s
+0.502 0.502 0 r
+(})s
+0 g
+(:)s
+0 0 0.753 r
+('')s
+0 g
+(        )59.5 192.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 182.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 172.4 ms
+0 0 0.753 r
+('Toy story')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('by John Lasseter, 1995')s
+0 g
+(,)s
+(            LOCAL?)59.5 162.4 ms
+0 0 0.753 r
+('<img src="local_img/toy_story.jpg">')s
+0 g
+(:)s
+0 0 0.753 r
+('<p class="img_caption">')s
+0 g
+( +)s
+(                )59.5 152.4 ms
+0 0 0.753 r
+('<a href="https://en.wikipedia.org/wiki/File:Toy_Story.jpg#/media/Fi)s
+(le:Toy_Story.jpg">')59.5 142.4 ms
+0 g
+( +)s
+(                )59.5 132.4 ms
+0 0 0.753 r
+('<img src="https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.)s
+(jpg" alt="Toy story poster"></a>')59.5 122.4 ms
+0 g
+( +)s
+(                )59.5 112.4 ms
+0 0 0.753 r
+('<br>By From <a rel="nofollow" class="external text" ')s
+0 g
+( +)s
+(                )59.5 102.4 ms
+0 0 0.753 r
+('href="http://www.impawards.com/1995/toy_story_ver1.html">impawards<)s
+(/a>., ')59.5 92.4 ms
+0 g
+( +)s
+(                )59.5 82.4 ms
+0 0 0.753 r
+('<a href="https://en.wikipedia.org/w/index.php?curid=26009601">Link<)s
+(/a></p>')59.5 72.4 ms
+0 g
+(,)s
+(        )59.5 62.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 2 2
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(slides_list.js                                                                Page 2)59.5 792.4 ms
+F0 sf
+0.753 0 0 r
+(//  perché Toy story -> Definisce il campo: computer graphics \(differente da altri a)59.5 772.4 ms
+(mbiti in cui si usa la modellazione\)...)59.5 762.4 ms
+0 g
+(        )59.5 752.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 742.4 ms
+0 0 0.753 r
+('Representation schemes')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('le molteplici accezioni del termine "mode)s
+(llazione"')59.5 732.4 ms
+0 g
+(,)s
+(            )59.5 722.4 ms
+0 0 0.753 r
+('<ul>')s
+0 g
+( +)s
+(                )59.5 712.4 ms
+0 0 0.753 r
+('<li><em><strong>Computer Graphics</strong></em>  &xrArr; rendering,)s
+( animation, interaction</li>')59.5 702.4 ms
+0 g
+( +)s
+(                )59.5 692.4 ms
+0 0 0.753 r
+('<li><em><strong>Wireframe</strong></em>  &xrArr; CAD systems</li>')s
+0 g
+( )s
+(+)59.5 682.4 ms
+(                )59.5 672.4 ms
+0 0 0.753 r
+('<li><em><strong>Free-form curve and surface</strong></em>  &xrArr; )s
+(automotive and aerospace industry</li>')59.5 662.4 ms
+0 g
+( +)s
+(                )59.5 652.4 ms
+0 0 0.753 r
+('<li><em><strong>Solid modeling</strong></em>  &xrArr; mechanical an)s
+(d engineering')59.5 642.4 ms
+0 g
+( +)s
+(                )59.5 632.4 ms
+0 0 0.753 r
+('<li><em>...voxel, parametric, BIM...</em>')s
+0 g
+(  +)s
+(            )59.5 622.4 ms
+0 0 0.753 r
+('</ul>')s
+0 g
+( +)s
+(            )59.5 612.4 ms
+0 0 0.753 r
+('<p class="note">classificazione tratta da Aristides A. G. Requicha; GEO)s
+(METRIC MODELING: A First Course; in ')59.5 602.4 ms
+0 g
+( +)s
+(            )59.5 592.4 ms
+0 0 0.753 r
+('<a href="https://www-bcf.usc.edu/~requicha/book.html">https://www-bcf.u)s
+(sc.edu/~requicha/book.html</a>, ')59.5 582.4 ms
+0 g
+( +)s
+(            )59.5 572.4 ms
+0 0 0.753 r
+('1996-2010<)s
+0.753 0 0.753 r
+(\\p)s
+0 0 0.753 r
+(>')s
+0 g
+(,)s
+(        )59.5 562.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(    )59.5 552.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+0.753 0 0 r
+(//  ...ma anche perché introduce l'argomento di oggi: le curve. Come rappresentare l)59.5 532.4 ms
+(e curve in computer graphics)59.5 522.4 ms
+0 g
+(    )59.5 512.4 ms
+0.502 0.502 0 r
+([)s
+0.753 0 0 r
+(//  perché nel 1995 per rappresentare una superficie curva generica l'unico sistema )59.5 502.4 ms
+(era quello delle NURBS)59.5 492.4 ms
+0 g
+(        )59.5 482.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 472.4 ms
+0 0 0.753 r
+('Come rappresentare le curve?')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            LOCAL?)59.5 462.4 ms
+0 0 0.753 r
+('<p class="fragment" style="float:left">NURBS?<br>')s
+0 g
+( +)s
+(            )59.5 452.4 ms
+0 0 0.753 r
+('<img src="local_img/nurbs_modeling.gif" style="vertical-align:middle; m)s
+(argin:20px"></p>')59.5 442.4 ms
+0 g
+( +)s
+0.753 0 0 r
+(//  ma le NURBS comportano importanti limitazioni e questo ha reso il lavoro degli a)59.5 432.4 ms
+(nimatori di Toy Story molto laborioso)59.5 422.4 ms
+(//      \(la scelta di raccontare un mondo fatto di plastica e di forme semplificate )59.5 412.4 ms
+(è funzionale ai limiti di calcolo dell'epoca\))59.5 402.4 ms
+0 g
+(            )59.5 392.4 ms
+0 0 0.753 r
+('<img class="fragment" src="local_img/headache.gif" style="float:right; )s
+(width: 50%">')59.5 382.4 ms
+0 g
+(:)s
+(            )59.5 372.4 ms
+0 0 0.753 r
+('<p class="fragment" style="float:left">NURBS?<br>')s
+0 g
+( +)s
+(            )59.5 362.4 ms
+0 0 0.753 r
+('<a title="By Nicola L.K. [GFDL \(http://www.gnu.org/copyleft/fdl.html\) o)s
+(r CC BY-SA 3.0 ')59.5 352.4 ms
+0 g
+( +)s
+(                )59.5 342.4 ms
+0 0 0.753 r
+('\(https://creativecommons.org/licenses/by-sa/3.0\)], from Wikimedia C)s
+(ommons" ')59.5 332.4 ms
+0 g
+( +)s
+(                )59.5 322.4 ms
+0 0 0.753 r
+('href="https://commons.wikimedia.org/wiki/File:NURBS_Modeling.gif">')s
+0 g
+( +)59.5 312.4 ms
+(                )59.5 302.4 ms
+0 0 0.753 r
+('<img alt="NURBS Modeling" src="https://upload.wikimedia.org/wikiped)s
+(ia/commons/d/d3/NURBS_Modeling.gif" ')59.5 292.4 ms
+0 g
+( +)s
+(                )59.5 282.4 ms
+0 0 0.753 r
+('style="vertical-align:middle; margin:20px">')s
+0 g
+( +)s
+(            )59.5 272.4 ms
+0 0 0.753 r
+('</a></p>')s
+0 g
+( +)s
+(            )59.5 262.4 ms
+0 0 0.753 r
+('<img class="fragment" src="https://78.media.tumblr.com/abb2c028fafb98e1)s
+(3639474899ccfd93/')59.5 252.4 ms
+0 g
+( +)s
+(            )59.5 242.4 ms
+0 0 0.753 r
+('tumblr_inline_pdvieoVHN31qafrh6_250.gif" style="float:right; width: 50%)s
+(">')59.5 232.4 ms
+0 g
+(,)s
+(            )59.5 222.4 ms
+0.753 0 0 r
+(//'<iframe class="fragment" src="https://giphy.com/embed/kSxTqT5Qvxp60" )s
+(width="474" height="480" ' + )59.5 212.4 ms
+0 g
+(            )59.5 202.4 ms
+0.753 0 0 r
+(//  'frameBorder="0" allowFullScreen style="float:right"></iframe>',)s
+0 g
+(        )59.5 192.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+0.753 0 0 r
+(//  Quali sono queste limitazioni? Per rispondere è utile riprendere la definizione )59.5 172.4 ms
+(di NURBS e capirne il significato geometrico)59.5 162.4 ms
+(//          \(la matematica che sottostà a questi argomenti è utile perché ci fornisc)59.5 152.4 ms
+(e i termini)59.5 142.4 ms
+(//          per parlare di forma e quindi di progetto\))59.5 132.4 ms
+0 g
+(        )59.5 122.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 112.4 ms
+0 0 0.753 r
+('Ma cosa sono le NURBS?')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('...e quali sono i problemi connessi al lo)s
+(ro uso?')59.5 102.4 ms
+0 g
+(        )59.5 92.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 72.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 62.4 ms
+0 0 0.753 r
+('NURBS definition')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility:hidden"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 52.4 ms
+0 0 0.753 r
+('Una curva NURBS è una particolare forma di <strong>spline</strong>*')s
+0 g
+( +)s
+re sp
+%%PageTrailer
+%%Page: 3 3
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(slides_list.js                                                                Page 3)59.5 792.4 ms
+F0 sf
+(            )59.5 772.4 ms
+0 0 0.753 r
+('<p class="note">*ovvero una B-Spline non uniforme e razionale</p>')s
+0 g
+(        )59.5 762.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 742.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 732.4 ms
+0 0 0.753 r
+('Spline definition')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility:hidden"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            LOCAL?)59.5 722.4 ms
+0 0 0.753 r
+('<p style="line-height:1em">una spline è una curva<br>')s
+0 g
+( +)s
+(            )59.5 712.4 ms
+0 0 0.753 r
+('<span class="fragment fade-down" style="font-size:66%">composta da diff)s
+(erenti pezzi di curva</span><br>')59.5 702.4 ms
+0 g
+( +)s
+(            )59.5 692.4 ms
+0 0 0.753 r
+('dipendente da punti di controllo detti nodi...</p>')s
+0 g
+( +)s
+0.753 0 0 r
+(// Whiteboard example)59.5 682.4 ms
+0 g
+(            )59.5 672.4 ms
+0 0 0.753 r
+('<img class="fragment" src="local_img/spline.png" style="box-shadow:none)s
+(">')59.5 662.4 ms
+0 g
+(:)s
+(            )59.5 652.4 ms
+0 0 0.753 r
+('<p style="line-height:1em">una spline è una curva<br>')s
+0 g
+( +)s
+(            )59.5 642.4 ms
+0 0 0.753 r
+('<span class="fragment fade-down" style="font-size:66%">composta da diff)s
+(erenti pezzi di curva</span><br>')59.5 632.4 ms
+0 g
+( +)s
+(            )59.5 622.4 ms
+0 0 0.753 r
+('dipendente da punti di controllo detti nodi...</p>')s
+0 g
+( +)s
+(            )59.5 612.4 ms
+0 0 0.753 r
+('<a title="By Garry R. Osgood [CC BY-SA 3.0 \(https://creativecommons.org)s
+(/licenses/by-sa/3.0\) ')59.5 602.4 ms
+0 g
+( +)s
+(            )59.5 592.4 ms
+0 0 0.753 r
+('or GFDL \(http://www.gnu.org/copyleft/fdl.html\)], from Wikimedia Commons)s
+(" ')59.5 582.4 ms
+0 g
+( +)s
+(            )59.5 572.4 ms
+0 0 0.753 r
+('href="https://commons.wikimedia.org/wiki/File:Parametic_Cubic_Spline.sv)s
+(g"><img width="512" ')59.5 562.4 ms
+0 g
+( +)s
+(            )59.5 552.4 ms
+0 0 0.753 r
+('alt="Parametic Cubic Spline" src="https://upload.wikimedia.org/wikipedi)s
+(a/commons/thumb/5/55')59.5 542.4 ms
+0 g
+( +)s
+(            )59.5 532.4 ms
+0 0 0.753 r
+('/Parametic_Cubic_Spline.svg/512px-Parametic_Cubic_Spline.svg.png" class)s
+(="fragment" style="box-shadow:none"></a>')59.5 522.4 ms
+0 g
+(,)s
+(        )59.5 512.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 492.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 482.4 ms
+0 0 0.753 r
+('Parametric definition')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility:hidden"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 472.4 ms
+0 0 0.753 r
+('Ognuno dei pezzi che compongono la spline è definito da una funzione pa)s
+(rametrica*')59.5 462.4 ms
+0 g
+( +)s
+(            )59.5 452.4 ms
+0 0 0.753 r
+('<iframe width="100%" height="300" src="https://richardfuhr.neocities.or)s
+(g/BusyBCurves.html"></iframe>')59.5 442.4 ms
+0 g
+( +)s
+(            )59.5 432.4 ms
+0 0 0.753 r
+('<p class="note">* ad esempio P\(t\) = \(1-t\)<sup>3</sup>P<sub>0</sub> + 3t)s
+(\(1-t\)<sup>2</sup>P<sub>1</sub> + ')59.5 422.4 ms
+0 g
+( +)s
+(            )59.5 412.4 ms
+0 0 0.753 r
+('3t<sup>2</sup>\(1-t\)P<sub>2</sub> + 3t<sup>3</sup>P<sub>3</sub>  con 0 &)s
+(#8804; t &#8804; 1/5')59.5 402.4 ms
+0 g
+(, )s
+(        )59.5 392.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+0.753 0 0 r
+(// Continuità: una caratteristica determinante per la forma)59.5 372.4 ms
+0 g
+(        )59.5 362.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 352.4 ms
+0 0 0.753 r
+('Continuity definition')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility:hidden"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 342.4 ms
+0 0 0.753 r
+('Vista la natura "composita" delle spline particolare attenzione è posta)s
+( sul modo in cui si connettono ')59.5 332.4 ms
+0 g
+( +)s
+(            )59.5 322.4 ms
+0 0 0.753 r
+('le diverse curve che la compongono.')s
+0 g
+( +)s
+(            )59.5 312.4 ms
+0 0 0.753 r
+('<p class="fragment">Questo elemento viene definito <br><em><strong>cont)s
+(inuità</strong></em></p>')59.5 302.4 ms
+0 g
+(,)s
+(        )59.5 292.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 272.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 262.4 ms
+0 0 0.753 r
+('Gradi di continuità')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 252.4 ms
+0 0 0.753 r
+('La continuità si esprime in gradi:')s
+0 g
+( +)s
+(            )59.5 242.4 ms
+0 0 0.753 r
+('<ul>')s
+0 g
+( +)s
+(                )59.5 232.4 ms
+0 0 0.753 r
+('<li class="fragment"><strong>C</strong><b><sup>0</sup></b> indica c)s
+(he il punto terminale di una ')59.5 222.4 ms
+0 g
+( +)s
+(                    )59.5 212.4 ms
+0 0 0.753 r
+('curva si trova nella stessa posizione del punto iniziale della )s
+(curva successiva</li>')59.5 202.4 ms
+0 g
+( +)s
+(                )59.5 192.4 ms
+0 0 0.753 r
+('<li class="fragment"><strong>C</strong><b><sup>1</sup></b> indica u)s
+(na continuità tra le tangenti ')59.5 182.4 ms
+0 g
+( +)s
+(                    )59.5 172.4 ms
+0 0 0.753 r
+('finale ed iniziale delle curve adiacenti</li>')s
+0 g
+( +)s
+(                )59.5 162.4 ms
+0 0 0.753 r
+('<li class="fragment"><strong>C</strong><b><sup>2</sup></b> indica u)s
+(na continuità della curvatura ')59.5 152.4 ms
+0 g
+( +)s
+(                    )59.5 142.4 ms
+0 0 0.753 r
+('finale ed iniziale delle curve adiacenti</li>')s
+0 g
+( +)s
+(            )59.5 132.4 ms
+0 0 0.753 r
+('</ul>')s
+0 g
+(        )59.5 122.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+0.753 0 0 r
+(//  Esempi: curva lineare, curva parabolica \(funzione quadratica\), curva cubica )59.5 102.4 ms
+(//          \(è importante saper gestire l'influenza dei nodi sulla curva per definir)59.5 92.4 ms
+(e e controllare le forme da noi progettate\))59.5 82.4 ms
+0 g
+(        )59.5 72.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 62.4 ms
+0 0 0.753 r
+('Influence definition')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility:hidden"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 52.4 ms
+0 0 0.753 r
+('Al crescere del grado di continuità aumenta l)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(influenza che i nodi han)s
+re sp
+%%PageTrailer
+%%Page: 4 4
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(slides_list.js                                                                Page 4)59.5 792.4 ms
+F0 sf
+0 0 0.753 r
+(no sulle parti distanti della curva.')59.5 772.4 ms
+0 g
+( +)s
+(            )59.5 762.4 ms
+0 0 0.753 r
+('<p>Verifica tu stesso alla pagina<br><a target="_blank" href="http://ge)s
+(ometrie.foretnik.net/files/NURBS-en.swf">')59.5 752.4 ms
+0 g
+( +)s
+(            )59.5 742.4 ms
+0 0 0.753 r
+('http://geometrie.foretnik.net/files/NURBS-en.swf</a>')s
+0 g
+(, )s
+(        )59.5 732.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 712.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 702.4 ms
+0 0 0.753 r
+('...e le NURBS?')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 692.4 ms
+0 0 0.753 r
+('Rispetto alla spline le <em>NURBS</em> si caratterizzano per avere la p)s
+(ossibilità di attribuire un "peso" ')59.5 682.4 ms
+0 g
+( +)s
+(            )59.5 672.4 ms
+0 0 0.753 r
+('differente ad ogni nodo \(<strong>Rational</strong>\) e che la suddivisio)s
+(ne possa avvenire secondo intervalli ')59.5 662.4 ms
+0 g
+( +)s
+(            )59.5 652.4 ms
+0 0 0.753 r
+('differenti \(<strong>Non Uniform</strong>\)')s
+0 g
+( +)s
+(            )59.5 642.4 ms
+0 0 0.753 r
+('<p class="note">* <em><strong>B-Spline</strong></em> se il grado di con)s
+(tinuità è costante su tutta la curva</p>')59.5 632.4 ms
+0 g
+(,)s
+(        )59.5 622.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 602.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 592.4 ms
+0 0 0.753 r
+('NURBS inadeguate')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility:hidden"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 582.4 ms
+0 0 0.753 r
+('L)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(impalcatura matematica delle NURBS vincola tali superfici a topologi)s
+(e bidimensionali* e ')59.5 572.4 ms
+0 g
+( +)s
+(            )59.5 562.4 ms
+0 0 0.753 r
+('rende molto difficile la generazione di forme come quelle umane, animal)s
+(i, vegetali**')59.5 552.4 ms
+0 g
+( +)s
+(            )59.5 542.4 ms
+0 0 0.753 r
+('<p class="fragment">Inoltre la natura interpolativa e parametrica di ta)s
+(li superfici rende laborioso e ')59.5 532.4 ms
+0 g
+( +)s
+(            )59.5 522.4 ms
+0 0 0.753 r
+('soggetto ad errori il calcolo di operazioni quali tagli e giunzioni</p>)s
+(')59.5 512.4 ms
+0 g
+( +)s
+(            )59.5 502.4 ms
+0 0 0.753 r
+('<p class="note">* Ovvero quelle superfici derivabili da un foglio, un c)s
+(ilindro o un toro<br>')59.5 492.4 ms
+0 g
+( +)s
+(            )59.5 482.4 ms
+0 0 0.753 r
+('** Ma anche molte superfici comuni nell)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(ambito dell)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(interior design c)s
+(ome quelle dei sanitari, ')59.5 472.4 ms
+0 g
+( +)s
+(            )59.5 462.4 ms
+0 0 0.753 r
+('della rubinetteria, degli imbottiti, etc...</p>')s
+0 g
+(,)s
+(        )59.5 452.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 432.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 422.4 ms
+0 0 0.753 r
+('Patches')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            LOCAL?)59.5 412.4 ms
+0 0 0.753 r
+('<p style="float: left;text-align: left;width: 50%;clear: left;">')s
+0 g
+( +)59.5 402.4 ms
+(            )59.5 392.4 ms
+0 0 0.753 r
+('Per tali forme era pertanto necessario ricorrere a superfici composte d)s
+(a pezzi di NURBS definiti ')59.5 382.4 ms
+0 g
+( +)s
+(            )59.5 372.4 ms
+0 0 0.753 r
+('<strong>patches</strong></p>')s
+0 g
+( +)s
+(            )59.5 362.4 ms
+0 0 0.753 r
+('<img src="local_img/patch_face.jpg" style="float:right">')s
+0 g
+( +)s
+(            )59.5 352.4 ms
+0 0 0.753 r
+('<img src="local_img/patch_hand.jpg">')s
+0 g
+(:)s
+(            )59.5 342.4 ms
+0 0 0.753 r
+('<p style="float: left;text-align: left;width: 50%;clear: left;">')s
+0 g
+( +)s
+(            )59.5 332.4 ms
+0 0 0.753 r
+('Per tali forme era pertanto necessario ricorrere a superfici composte d)s
+(a pezzi di NURBS definiti ')59.5 322.4 ms
+0 g
+( +)s
+(            )59.5 312.4 ms
+0 0 0.753 r
+('<strong>patches</strong></p>')s
+0 g
+( +)s
+(            )59.5 302.4 ms
+0 0 0.753 r
+('<img src="https://www.edharriss.com/tutorials/tutorial_xsi_curse_of_the)s
+(_nurbs/Curse_of_the_NURBS2_files/')59.5 292.4 ms
+0 g
+( +)s
+(            )59.5 282.4 ms
+0 0 0.753 r
+('mag1art1fig29.jpg" style="float:right">')s
+0 g
+( +)s
+(            )59.5 272.4 ms
+0 0 0.753 r
+('<img src="https://www.edharriss.com/tutorials/tutorial_xsi_curse_of_the)s
+(_nurbs/Curse_of_the_NURBS2_files/')59.5 262.4 ms
+0 g
+( +)s
+(            )59.5 252.4 ms
+0 0 0.753 r
+('mag1art1fig34.jpg">')s
+0 g
+(,)s
+(        )59.5 242.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 222.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 212.4 ms
+0 0 0.753 r
+('Patches 2')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility:hidden"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 202.4 ms
+0 0 0.753 r
+('<p style="float: left;text-align: left;width: 50%;clear: left;">')s
+0 g
+( +)s
+(            )59.5 192.4 ms
+0 0 0.753 r
+('...in questo modo era molto difficile garantire la continuità tra super)s
+(fici diverse...</p>')59.5 182.4 ms
+0 g
+( +)s
+(            )59.5 172.4 ms
+0 0 0.753 r
+('<figure style="float:right; width:40%"><img src="img/woody_hand.png" st)s
+(yle="box-shadow:none">')59.5 162.4 ms
+0 g
+( +)s
+(            )59.5 152.4 ms
+0 0 0.753 r
+('<figcaption class="img_caption">Immagine tratta da<br>')s
+0 g
+( +)s
+(            )59.5 142.4 ms
+0 0 0.753 r
+('W. Jarosz; <em>Computer Graphics. Subdivision Curves & Surfaces; CS 77/)s
+(177, Fall 2017</em><br>')59.5 132.4 ms
+0 g
+( +)s
+(            )59.5 122.4 ms
+0 0 0.753 r
+('published in <a href="https://canvas.dartmouth.edu/courses/22235/files/)s
+(3142786/">')59.5 112.4 ms
+0 g
+( +)s
+(            )59.5 102.4 ms
+0 0 0.753 r
+('https://canvas.dartmouth.edu/courses/22235/files/3142786/</a></figcapti)s
+(on></figure>')59.5 92.4 ms
+0 g
+(,)s
+(        )59.5 82.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 62.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 52.4 ms
+0 0 0.753 r
+('Patches 3')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility:hidden; display:none"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+re sp
+%%PageTrailer
+%%Page: 5 5
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(slides_list.js                                                                Page 5)59.5 792.4 ms
+F0 sf
+(            LOCAL?)59.5 772.4 ms
+0 0 0.753 r
+('<div style="position: absolute;width: 100%;color: white;">')s
+0 g
+( +)s
+(            )59.5 762.4 ms
+0 0 0.753 r
+('...soprattutto se animate!</div>')s
+0 g
+(:)s
+(            )59.5 752.4 ms
+0 0 0.753 r
+('<div style="position: absolute;width: 100%;color: white;">')s
+0 g
+( +)s
+(            )59.5 742.4 ms
+0 0 0.753 r
+('...soprattutto se animate!</div>')s
+0 g
+( +)s
+(            )59.5 732.4 ms
+0 0 0.753 r
+('<iframe src="https://giphy.com/embed/xTiIzP2OhX0xjpwXrq" width="100%" h)s
+(eight="600" ')59.5 722.4 ms
+0 g
+( +)s
+(            )59.5 712.4 ms
+0 0 0.753 r
+('frameBorder="0" allowFullScreen style="background: black"></iframe>')s
+0 g
+(,)s
+(            LOCAL?)59.5 702.4 ms
+0.502 0.502 0 r
+({)s
+0 0 0.753 r
+('data-background')s
+0 g
+(: )s
+0 0 0.753 r
+("local_img/c3po.gif")s
+0 g
+(, )s
+0 0 0.753 r
+('data-background-transit)s
+(ion')59.5 692.4 ms
+0 g
+(: )s
+0 0 0.753 r
+('zoom')s
+0.502 0.502 0 r
+(})s
+0 g
+(:)s
+0 0 0.753 r
+('')s
+0 g
+(        )59.5 682.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(    )59.5 672.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(    )59.5 652.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(        )59.5 642.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 632.4 ms
+0 0 0.753 r
+('Algoritmi di suddivisione')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('...ovvero: un modo semplice per risolv)s
+(ere il problema delle curve')59.5 622.4 ms
+0 g
+(,)s
+(        )59.5 612.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 602.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 592.4 ms
+0 0 0.753 r
+('Catmull-Clark paper')s
+0 g
+(,  )s
+0 0 0.753 r
+('style="visibility:hidden; display: none"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 582.4 ms
+0 0 0.753 r
+('<p style="width: 50%; float: left">La soluzione era stata individuata n)s
+(el 1978 da <strong>Ed Catmull</strong> e ')59.5 572.4 ms
+0 g
+( +)s
+(            )59.5 562.4 ms
+0 0 0.753 r
+('<strong>James Clark</strong><br>')s
+0 g
+( +)s
+(            )59.5 552.4 ms
+0 0 0.753 r
+('<img src="local_img/catmull.jpg" style="width: 45%; float: left">')s
+0 g
+( +)s
+(            )59.5 542.4 ms
+0 0 0.753 r
+('<img src="local_img/clark.jpg" style="width: 45%; float: right"></p>')s
+0 g
+( +)s
+(            )59.5 532.4 ms
+0 0 0.753 r
+('<img src="img/catmull-clark_paper.png" style="width: 40%; float:right">)s
+(')59.5 522.4 ms
+0 g
+(            )59.5 512.4 ms
+0.753 0 0 r
+(//)s
+0 g
+(            )59.5 502.4 ms
+0.753 0 0 r
+(//)s
+0 g
+(TODO)s
+0.753 0 0 r
+( remote version)s
+0 g
+(            )59.5 492.4 ms
+0.753 0 0 r
+(//<a title="By VES_Awards_89.jpg: Jeff Heusser derivative work: Ahonc \(T)s
+(his file was derived from: VES Awards 89.jpg:\) [CC BY 2.0 \(https://creativecommons.o)59.5 482.4 ms
+(rg/licenses/by/2.0 \)], via Wikimedia Commons" href="https://commons.wikimedia.org/wi)59.5 472.4 ms
+(ki/File:VES_Awards_89_cropped.jpg"><img width="256" alt="VES Awards 89 cropped" src=)59.5 462.4 ms
+("https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/VES_Awards_89_cropped.jpg)59.5 452.4 ms
+(/256px-VES_Awards_89_cropped.jpg"></a>)59.5 442.4 ms
+0 g
+(            )59.5 432.4 ms
+0.753 0 0 r
+(// <a title="By Knnkanda [CC BY-SA 3.0 \(https://creativecommons.org/lice)s
+(nses/by-sa/3.0\)], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/F)59.5 422.4 ms
+(ile:James_H._Clark.jpg"><img width="256" alt="James H. Clark" src="https://upload.wi)59.5 412.4 ms
+(kimedia.org/wikipedia/commons/0/07/James_H._Clark.jpg"></a>)59.5 402.4 ms
+0 g
+(        )59.5 392.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 372.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 362.4 ms
+0 0 0.753 r
+('Catmull-Clark references')s
+0 g
+(,  )s
+0 0 0.753 r
+('style="visibility:hidden; display: none"')s
+0 g
+(,)s
+( )59.5 352.4 ms
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 342.4 ms
+0 0 0.753 r
+('L)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(algoritmo <em>Catmull-Clark</em> prendeva le mosse da due schemi esi)s
+(stenti:')59.5 332.4 ms
+0 g
+( +)s
+(            )59.5 322.4 ms
+0 0 0.753 r
+('<ul><li class="fragment">la curva <strong>Bézier</strong></li>')s
+0 g
+( +)s
+(            )59.5 312.4 ms
+0 0 0.753 r
+('<li class="fragment">l)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(algoritmo di <strong>suddivisione</strong> di G)s
+(eorge <strong>Chaikin</strong></li></ul>')59.5 302.4 ms
+0 g
+(,)s
+(        )59.5 292.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 272.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 262.4 ms
+0 0 0.753 r
+('Bézier curve')s
+0 g
+(,  )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 252.4 ms
+0 0 0.753 r
+('La curva Bézier venne formalizzata alla fine degli anni )s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(50 da Paul <s)s
+(trong>de Casteljau</strong> ')59.5 242.4 ms
+0 g
+( +)s
+(            )59.5 232.4 ms
+0 0 0.753 r
+('e da Pierre<strong>Bézier</strong> per l)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(industria automobilistica fra)s
+(ncese*<br>')59.5 222.4 ms
+0 g
+( +)s
+(            )59.5 212.4 ms
+0 0 0.753 r
+('<img class="fragment" style="box-shadow: none" src="local_img/bezier_cu)s
+(rve.png">')59.5 202.4 ms
+0 g
+( +)s
+(            )59.5 192.4 ms
+0 0 0.753 r
+('<p class="note">* per Citroën il primo, per Renault il secondo</p>')s
+0 g
+(,)s
+(            )59.5 182.4 ms
+0.753 0 0 r
+(// )s
+0 g
+(TODO)s
+0.753 0 0 r
+( remote version)s
+0 g
+(            )59.5 172.4 ms
+0.753 0 0 r
+(// <a title="By No machine-readable author provided. MarianSigler assume)s
+(d \(based on copyright claims\). [Public domain], via Wikimedia Commons" href="https:/)59.5 162.4 ms
+(/commons.wikimedia.org/wiki/File:Bezier_curve.svg"><img width="512" alt="Bezier curv)59.5 152.4 ms
+(e" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bezier_curve.svg/5)59.5 142.4 ms
+(12px-Bezier_curve.svg.png"></a>)59.5 132.4 ms
+0 g
+(        )59.5 122.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(        )59.5 102.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 92.4 ms
+0 0 0.753 r
+('Chaikin)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(s curve')s
+0 g
+(,  )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('\(1974\)')s
+0 g
+(,)s
+(            )59.5 82.4 ms
+0 0 0.753 r
+('<div class="fragment">')s
+0 g
+( +)s
+(                )59.5 72.4 ms
+0 0 0.753 r
+('<div style="width:35%; float:left">')s
+0 g
+( +)s
+(                    )59.5 62.4 ms
+0 0 0.753 r
+('<img style="box-shadow: none" src="local_img/chaikin0.gif"><br>)s
+(')59.5 52.4 ms
+0 g
+( +)s
+re sp
+%%PageTrailer
+%%Page: 6 6
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(slides_list.js                                                                Page 6)59.5 792.4 ms
+F0 sf
+(                    )59.5 772.4 ms
+0 0 0.753 r
+('<img style="box-shadow: none" src="local_img/chaikin1.gif"></di)s
+(v>')59.5 762.4 ms
+0 g
+( +)s
+(                )59.5 752.4 ms
+0 0 0.753 r
+('<div style="width:35%; float:right">')s
+0 g
+( +)s
+(                    )59.5 742.4 ms
+0 0 0.753 r
+('<img style="box-shadow: none" src="local_img/chaikin0.gif"><br>)s
+(')59.5 732.4 ms
+0 g
+( +)s
+(                    )59.5 722.4 ms
+0 0 0.753 r
+('<img style="box-shadow: none" src="local_img/chaikin1.gif"></di)s
+(v>')59.5 712.4 ms
+0 g
+( +)s
+(            )59.5 702.4 ms
+0 0 0.753 r
+('</div>')s
+0 g
+(,)s
+(            )59.5 692.4 ms
+0.753 0 0 r
+(// )s
+0 g
+(TODO)s
+0.753 0 0 r
+( remote version)s
+0 g
+(            )59.5 682.4 ms
+0.753 0 0 r
+(// http://www.idav.ucdavis.edu/education/CAGDNotes/Chaikins-Algorithm/Ch)s
+(aikins-Algorithm.html)59.5 672.4 ms
+0 g
+(        )59.5 662.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+0.753 0 0 r
+(//  La natura quadratica della curva di Chaikin  non soddisfava le esigenze di maggi)59.5 642.4 ms
+(ore continuità richieste)59.5 632.4 ms
+(//      e nel 1978 Catmull e Clark pubblicarono un paper in cui veniva illustrato un)59.5 622.4 ms
+( diverso algoritmo per generare)59.5 612.4 ms
+(//      delle superfici curve... -> descrizione)59.5 602.4 ms
+0 g
+(        )59.5 592.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 582.4 ms
+0 0 0.753 r
+('Subdivision surfaces')s
+0 g
+(,  )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('in cosa consiste l)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(algoritmo Catmull-Clar)s
+(k?')59.5 572.4 ms
+0 g
+(,)s
+(            )59.5 562.4 ms
+0 0 0.753 r
+('<img src="img/catmull-clark_paper.png">')s
+0 g
+(            )59.5 552.4 ms
+0.753 0 0 r
+(// )s
+0 g
+(TODO)s
+0.753 0 0 r
+( illustrate algorithm)s
+0 g
+(        )59.5 542.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+0.753 0 0 r
+(//  Nella seconda metà degli anni 90 i tempi erano maturi per applicare l'algoritmo )59.5 522.4 ms
+(di Catmull-Clark che venne perfezionato)59.5 512.4 ms
+(//      e ribattezzato OpenSubdiv)59.5 502.4 ms
+0 g
+(        )59.5 492.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 482.4 ms
+0 0 0.753 r
+('OpenSubdiv')s
+0 g
+(,  )s
+0 0 0.753 r
+('')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 472.4 ms
+0 0 0.753 r
+('<img src="img/open_subdiv.png">')s
+0 g
+(            )59.5 462.4 ms
+0.753 0 0 r
+(// )s
+0 g
+(TODO)s
+0.753 0 0 r
+( some note about)s
+0 g
+(        )59.5 452.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+0.753 0 0 r
+(//  Il primo banco di prova per verificare il nuovo sistema fu un corto: Geri's game)59.5 432.4 ms
+(.)59.5 422.4 ms
+(//      Dopo di allora tutti i più importanti film d'animazione digitale hanno adott)59.5 412.4 ms
+(ato l'algoritmo di suddivisione Catmull-Clark)59.5 402.4 ms
+0 g
+(        )59.5 392.4 ms
+0.502 0.502 0 r
+([)s
+0 g
+(            )59.5 382.4 ms
+0 0 0.753 r
+('Geri)s
+0.753 0 0.753 r
+(\\')s
+0 0 0.753 r
+(s game video')s
+0 g
+(, )s
+0 0 0.753 r
+('style="visibility: hidden"')s
+0 g
+(, )s
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 372.4 ms
+0 0 0.753 r
+('')s
+0 g
+(,)s
+(            )59.5 362.4 ms
+0.753 0 0 r
+(// )s
+0 g
+(TODO)s
+0.753 0 0 r
+( remote version)s
+(//          LOCAL?'':'<div class="video-background">' +)59.5 352.4 ms
+(//              '<div class="video-foreground">' +)59.5 342.4 ms
+(//                  '<iframe src="https://www.youtube.com/embed/rNk1Wi8SvNc?rel=0&sh)59.5 332.4 ms
+(owinfo=0&start=30&controls=0&loop=1" ' +)59.5 322.4 ms
+(//                  'frameborder="0" allow="autoplay; encrypted-media" allowfullscre)59.5 312.4 ms
+(en></iframe>' +)59.5 302.4 ms
+(//              '</div>' +)59.5 292.4 ms
+(//          '</div>',)59.5 282.4 ms
+0 g
+(            LOCAL?)59.5 272.4 ms
+0.502 0.502 0 r
+({)s
+0 0 0.753 r
+('data-background-video')s
+0 g
+(: )s
+0 0 0.753 r
+("local_img/geri_s_game.webm")s
+0 g
+(, )s
+0 0 0.753 r
+('data-back)s
+(ground-transition')59.5 262.4 ms
+0 g
+(: )s
+0 0 0.753 r
+('zoom')s
+0.502 0.502 0 r
+(})s
+0 g
+(:)s
+0 0 0.753 r
+('')s
+0 g
+(        )59.5 252.4 ms
+0.502 0.502 0 r
+(])s
+0 g
+(,)s
+(    )59.5 242.4 ms
+0.502 0.502 0 r
+(])s
+(])59.5 222.4 ms
+re sp
+%%PageTrailer
+%%Trailer
+%%Pages: 6
+%%EOF
+
