@@ -109,13 +109,13 @@ var lesson_slides = [
 		],
 
 		[
-			'NURBS definition', 'style="visibility:hidden"', '',
+			'NURBS definition', 'style="visibility:hidden; display: none"', '',
 			'Una curva NURBS è una particolare forma di <strong>spline</strong>*' +
 			'<p class="note">*ovvero una B-Spline non uniforme e razionale</p>'
 		],
 
 		[
-			'Spline definition', 'style="visibility:hidden"', '',
+			'Spline definition', 'style="visibility:hidden; display:none"', '',
 			'<p style="line-height:1em">una spline è una curva<br>' +
 			'<span class="fragment fade-down" style="font-size:66%">composta da differenti pezzi di curva</span><br>' +
 			'dipendente da punti di controllo detti nodi...</p>' +
@@ -130,7 +130,7 @@ var lesson_slides = [
 		],
 
 		[
-			'Parametric definition', 'style="visibility:hidden"', '',
+			'Parametric definition', 'style="visibility:hidden; display: none"', '',
 			'Ognuno dei pezzi che compongono la spline è definito da una funzione parametrica*' +
 			'<iframe width="100%" height="300" src="https://richardfuhr.neocities.org/BusyBCurves.html"></iframe>' +
 			'<p class="note">* ad esempio P(t) = (1-t)<sup>3</sup>P<sub>0</sub> + 3t(1-t)<sup>2</sup>P<sub>1</sub> + ' +
@@ -139,7 +139,7 @@ var lesson_slides = [
 
 // Continuità: una caratteristica determinante per la forma
 		[
-			'Continuity definition', 'style="visibility:hidden"', '',
+			'Continuity definition', 'style="visibility:hidden; display: none"', '',
 			'Vista la natura "composita" delle spline particolare attenzione è posta sul modo in cui si connettono ' +
 			'le diverse curve che la compongono.' +
 			'<p class="fragment">Questo elemento viene definito <br><em><strong>continuità</strong></em></p>',
@@ -161,7 +161,7 @@ var lesson_slides = [
 //  Esempi: curva lineare, curva parabolica (funzione quadratica), curva cubica 
 //  		(è importante saper gestire l'influenza dei nodi sulla curva per definire e controllare le forme da noi progettate)
 		[
-			'Influence definition', 'style="visibility:hidden"', '',
+			'Influence definition', 'style="visibility:hidden; display:none"', '',
 			'Al crescere del grado di continuità aumenta l\'influenza che i nodi hanno sulle parti distanti della curva.' +
 			'<p>Verifica tu stesso alla pagina<br><a target="_blank" href="http://geometrie.foretnik.net/files/NURBS-en.swf">' +
 			'http://geometrie.foretnik.net/files/NURBS-en.swf</a>', 
@@ -176,7 +176,7 @@ var lesson_slides = [
 		],
 
 		[
-			'NURBS inadeguate', 'style="visibility:hidden"', '',
+			'NURBS inadeguate', 'style="visibility:hidde; display:nonen"', '',
 			'L\'impalcatura matematica delle NURBS vincola tali superfici a topologie bidimensionali* e ' +
 			'rende molto difficile la generazione di forme come quelle umane, animali, vegetali**' +
 			'<p class="fragment">Inoltre la natura interpolativa e parametrica di tali superfici rende laborioso e ' +
@@ -205,7 +205,7 @@ var lesson_slides = [
 		],
 
 		[
-			'Patches 2', 'style="visibility:hidden"', '',
+			'Patches 2', 'style="visibility:hidden; display:none"', '',
 			'<p style="float: left;text-align: left;width: 50%;clear: left;">' +
 			'...in questo modo era molto difficile garantire la continuità tra superfici diverse...</p>' +
 			'<figure style="float:right; width:40%"><img src="img/woody_hand.png" style="box-shadow:none">' +
@@ -343,13 +343,15 @@ var lesson_slides = [
 //  	e ribattezzato OpenSubdiv
 		[
 			'OpenSubdiv',  '', '',
-			'<div style="width: 50%; float:left">L\'algoritmo di suddivisione Catmull-Clark è stato ' +
-			'<a href="https://github.com/PixarAnimationStudios/OpenSubdiv">' +
-			'implememtato in forma di codice software</a> dalla Pixar che lo ha rilasciato con licenza open source ' +
-			'con il nome di <strong>OpenSubdiv</strong></div>' +
-			'<img src="img/open_subdiv.png" style="float:right; width: 45%">' +
-			'<p class="note">Maggiori dettagli all\'indirizzo <a href="https://graphics.pixar.com/opensubdiv/">' +
-			'https://graphics.pixar.com/opensubdiv/</a></p>',
+			'<div style="display: flex">' +
+				'<div style="flex: 1 0 50%">L\'algoritmo di suddivisione Catmull-Clark è stato ' +
+				'<a href="https://github.com/PixarAnimationStudios/OpenSubdiv">' +
+				'implememtato in forma di codice software</a> dalla Pixar che lo ha rilasciato ' +
+				'con licenza open source con il nome di <strong>OpenSubdiv</strong>' +
+				'<p class="note">Maggiori dettagli all\'indirizzo <a href="https://graphics.pixar.com/opensubdiv/">' +
+					'https://graphics.pixar.com/opensubdiv/</a></p></div>' +
+				'<div style="flex: 1 0 50%"><img src="img/open_subdiv.png" style="max-width: 100%"></div>' +
+			'<div>',
 		],
 
 //  Il primo banco di prova per verificare il nuovo sistema fu un corto: Geri's game.
