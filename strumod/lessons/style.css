@@ -180,3 +180,22 @@ div.chart_container {
 	right: 0px;
 }
 
+.reveal table.syllabus {
+	font-size: 18px;
+	line-height: 1em;
+	width: 90%;
+}
+
+.reveal table.syllabus div.ex-tempore {
+	background: gold;
+	font-weight: bold;
+}
+
+.reveal table.syllabus td {
+	vertical-align: middle;
+}
+
+.reveal table.syllabus td.date {
+	font-weight: bold;
+	font-size: .75em;
+}
