@@ -1,11 +1,12 @@
 var slide_div = document.getElementById('slides');
 
 class Slide {
-	constructor(title = '', title_options = '', subtitle = '', content = '', properties = '') {
+	constructor(title = '', title_options = '', subtitle = '', content = '', content_style = '', properties = '', ) {
 		this.title = title;
 		this.title_options = title_options;
 		this.subtitle = subtitle;
 		this.content = content;
+		this.content_style = content_style;
 		this.properties = properties;
 	}
 }
@@ -32,7 +33,7 @@ for (i = 0; i < slides.length; i++){
 var get_slide = function (x) {
 	return '<h1 ' + x.title_options + '>' + x.title + '</h1>' +
 		'<p class = "subtitle">' + x.subtitle + '</p>' +
-		'<div>' + x.content + '</div>';
+		'<div style="' + x.content_style + '">' + x.content + '</div>';
 }
 
 var get_slide_properties = function (x) {

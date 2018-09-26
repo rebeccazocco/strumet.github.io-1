@@ -53,6 +53,7 @@ var lesson_slides = [
 					'frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>' +
 				'</div>' +
 			'</div>'),
+			'',
 			choose({'data-background-video': "local_img/toy_story.mp4", 'data-background-transition': 'zoom'},'')
 		],
 		[
@@ -221,6 +222,7 @@ var lesson_slides = [
 			'<div style="position: absolute;width: 100%;color: white;">...soprattutto se animate!</div>' +
 			choose('', '<iframe src="https://giphy.com/embed/xTiIzP2OhX0xjpwXrq" width="100%" height="600" ' +
 				'frameBorder="0" allowFullScreen style="background: black"></iframe>'),
+			'',
 			choose({'data-background': "local_img/c3po.gif", 'data-background-transition': 'zoom'},'')
 		],
 	],
@@ -364,6 +366,7 @@ var lesson_slides = [
 						'frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>' +
 					'</div>' +
 				'</div>'),
+			'',
 			choose({'data-background-video': "local_img/geri_s_game.webm", 'data-background-transition': 'zoom'},'')
 		],
 	],
