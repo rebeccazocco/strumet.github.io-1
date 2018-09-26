@@ -35,16 +35,8 @@
 	font-family: monospace, Courier;
 	font-size: .25em;
 	line-height: 1.25em;
-	/*
-	margin-top: 40px;
-	*/
 	position: absolute;
 	bottom: 0;
-	/*
-	position: fixed;
-	bottom: 50px;
-	*/
-	margin: 0;
 }
 
 .reveal .nav_div {
@@ -119,6 +111,7 @@ div.chart_container {
 .reveal .img_caption {
 	font-size: x-small;
 	line-height: 1.5em;
+	margin: 0;
 }
 .reveal section img {
 	border: none;
@@ -130,6 +123,7 @@ div.chart_container {
 }
 
 .reveal ul.bibliography {
+	display: block;
 	font-size: .5em;
 	line-height: 1.5em;
 }
