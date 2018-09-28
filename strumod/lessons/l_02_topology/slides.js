@@ -346,7 +346,7 @@ var lesson_slides = [
 		[
 			'Manifold', disp_none, '',
  			'La caratteristica più semplice e restrittiva di una mesh è che la superficie sia <strong>manifold</strong>*' +
-			'<p class="note">Dal tedesco <em>Mannigfaltigkeit</em>: "diversità"</p>',
+			'<p class="note">* dal tedesco <em>Mannigfaltigkeit</em>: "diversità"</p>',
 		],
 
 		[

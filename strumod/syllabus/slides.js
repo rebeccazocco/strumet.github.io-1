@@ -26,7 +26,9 @@ syl = [
 			'documenti-e-media?p_p_id=20&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_20_struts_action=%2F' +
 			'document_library%2Fview&_20_folderId=151073376&_20_entryStart=0&_20_entryEnd=20&_20_folderStart=0' +
 			'&_20_folderEnd=20&#p_20">esercizi</a>',
-	'Topologia @ Representation schemes, struttura di una mesh, manifold, quad mesh @',
+	'Topologia @ Representation schemes, struttura di una mesh, manifold, quad mesh @ ' +
+		'<a href="https://strumet.github.io/strumod/lessons/l_02_topology/">slides</a><br>' +
+		'<a href="https://beep.metid.polimi.it/documents/150916119/0/ACT_0927">esercizi</a>',
 	'Trasformazioni @ World space e object space, matrici di trasformazione, strategie operative @',
 	'Pratica ed esercizio in aula @ #1 @',
 	'<div class="ex-tempore">Ex tempore</div> @ Mid-term 1 @',
