@@ -16,13 +16,14 @@ var sketchfab_code = function(model, param = '') {
 				'src="https://sketchfab.com/models/' + model.id + '/embed?' + param + '" ' +
 				'frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" ' +
 				'webkitallowfullscreen="true"></iframe>' +
-			choose('','<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">' +
+			choose('','<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A; ' +
+				'position: absolute; background: white; width: 100%;">' +
 				'<a href="https://sketchfab.com/models/' + model.id + '?' +
 					'utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" ' +
-					'style="font-weight: bold; color: #1CAAD9;">' + model.title + '</a>by ' +
+					'style="font-weight: bold; color: #1CAAD9;">' + model.title + '</a> by ' +
 					'<a href="https://sketchfab.com/' + model.author + '?utm_medium=embed&utm_source=website&' +
 					'utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">' +
-					model.author + '</a>on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&' +
+					model.author + '</a> on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&' +
 					'utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">' +
 					'Sketchfab</a></p>');
 }
@@ -128,9 +129,9 @@ var lesson_slides = [
 			choose('<img style="box-shadow:none; height:500px" src="local_img/Csg_tree.png">',
 				'<a title="By User:Zottie [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0' +
 					'(http://creativecommons.org/licenses/by-sa/3.0/)], from Wikimedia Commons" ' +
-					'href="https://commons.wikimedia.org/wiki/File:Csg_tree.png"><img width="512" ' +
-					'alt="Csg tree" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Csg_tree.png/' +
-					'512px-Csg_tree.png" style="box-shadow:none; height:500px"></a>'),
+					'href="https://commons.wikimedia.org/wiki/File:Csg_tree.png"><img ' +
+					'alt="Csg tree" src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Csg_tree.png" ' +
+					'style="box-shadow:none; height:500px"></a>'),
 			'line-height:0',
 		],
 
@@ -161,21 +162,20 @@ var lesson_slides = [
 		[
 			'B-Rep', 'style=""', 'Boundary representation',
 			'<div style="display:flex; flex-flow: row wrap; justify-content: space-evenly">' +
-				'<div style="flex: 0 1 50%">Il modello è descritto attraverso la superficie che lo delimita e, ' +
+				'<div style="flex: 0 1 50%">Il modello è descritto attraverso le superfici che lo delimitano e, ' +
 					'pertanto, risulta cavo</div>' +
 				'<img style="max-height:250px; box-shadow: none" src="img/brep_0.png">' +
 				'<div style="flex: 1 1 auto; display: flex; flex-flow:row nowrap; max-height: 250px; ' +
 					'justify-content: space-evenly">' +
 					'<img style="box-shadow:none" src="img/brep_1.png"><img style="box-shadow: none" src="img/brep_2.png">' +
 				'</div>',
-
 		],
 
 		[
 			'NOTA BENE', 'style=""', '',
 			'Il tipo di rappresentazione<br>determina il modo di operare:' +
 			'<div style="display: flex; line-height: 0">' +
-				'<div class="fragment" style="flex: .4409">' +
+				'<div class="fragment" style="flex: .4409" data-fragment-index="0">' +
 					choose('<img src="local_img/milling_machine.jpg">',
 						'<a title="By https://www.youtube.com/user/KolbTechnology ' +
 							'(https://www.youtube.com/watch?v=ZijC8jU_1Aw) [GFDL (http://www.gnu.org/copyleft/fdl.html) ' +
@@ -185,15 +185,23 @@ var lesson_slides = [
 							'Landschaftsmodells" src="https://upload.wikimedia.org/wikipedia/commons/a/af/' +
 							'3D-CNC-Fr%C3%A4sen_-_Erstellung_eines_Landschaftsmodells.jpg"></a>') +
 					'<p class="img_caption" style="font-size:medium">modellazione solida</p></div>' +
-				'<div class="fragment" style="flex: .5591">' +
+				'<div class="fragment" style="flex: .5591" data-fragment-index="1">' +
 					choose('<img src="local_img/tailor_shop.jpg">',
 						'<img src="https://www.publicdomainpictures.net/pictures/80000/velka/tailor-shop' +
 							'-vintage-painting.jpg" alt="Released in CC0 Public Domain at ' +
 							'https://www.publicdomainpictures.net/en/view-image.php?image=76581&picture=tailor-shop-' +
 							'vintage-painting">') +
 						'<p class="img_caption" style="font-size:medium">modellazione poligonale</p></div>' +
-			'</div>',
-
+			'</div>' +
+			'<p class="note fragment" style="position: relative" data-fragment-index="1">Immagini rilasciate in CC su ' +
+				'<a href="https://commons.wikimedia.org/wiki/File:3D-CNC-Fr%C3%A4sen_-_Erstellung_eines_' +
+					'Landschaftsmodells.jpg">' +
+					'https://commons.wikimedia.org/wiki/File:3D-CNC-Fr%C3%A4sen_-_Erstellung_eines_Landschaftsmodells.jpg ' +
+				'</a>' +
+				'e <a href="https://www.publicdomainpictures.net/en/view-image.php?image=76581&picture=tailor-' +
+					'shop-vintage-painting">https://www.publicdomainpictures.net/en/view-image.php?' +
+					'image=76581&picture=tailor-shop-vintage-painting</a>' +
+			'</p>',
 		],
 	],
 
@@ -209,7 +217,8 @@ var lesson_slides = [
 				'<div style="flex: 0 1 40%; font-size: 75%">' +
 					'<p class="fragment" data-fragment-index="0"><strong>vertici</strong><br>(vertex)</p>' +
 						'<p class="fragment" data-fragment-index="1" style="font-size:50%; font-style="italic">' +
-						'definiti da tre coordinate x1, y1, z1</p>' +
+						'definiti da tre coordinate x<sub style="font-size:.75em">1</sub>, ' +
+						'y<sub style="font-size:.75em">1</sub>, z<sub style="font-size:.75em">1</sub></p>' +
 					'<p class="fragment" data-fragment-index="2"><strong>bordi</strong><br>(edges)</p>' +
 						'<p class="fragment" data-fragment-index="3" style="font-size:50%; font-style="italic">' +
 						'delimitati da 2 vertici</p>' +
@@ -239,7 +248,7 @@ var lesson_slides = [
 		[
 			'Vertex valence', 'style="display:none;"', '',
 			'<div style="display: flex; position: absolute; top: 0; flex-flow: row wrap">' +
-				'<div style="width: 100%">La valenza di un vertice corrisponde al numero di bordi in esso confluenti:</div>' +
+				'<div style="width: 100%">La <strong>valenza</strong> di un vertice corrisponde al numero di bordi in esso confluenti:</div>' +
 				'<div style="flex: 0 1 50%; font-size: 75%">' +
 					'<p class="fragment" data-fragment-index="0">è <strong>regolare</strong></p>' +
 						'<p class="fragment" data-fragment-index="0" style="font-size:50%; font-style="italic">' +
@@ -276,7 +285,7 @@ var lesson_slides = [
 					'<img class="fragment" data-fragment-index="1" src="img/tris.png" ' +
 						'style="background: none; box-shadow:none; width: 100%; ' +
 						'position: relative; top:' + (-1*100/face_img) + '%">' +
-					'<img class="fragment" data-fragment-index="2" src="img/quads.png" ' +
+					'<img class="fragment" data-fragment-index="2" src="img/tris_quads.png" ' +
 						'style="background: none; box-shadow:none; width: 100%; ' +
 						'position: relative; top:' + (-2*100/face_img) + '%">' +
 					'<img class="fragment" data-fragment-index="3" src="img/ngons.png" ' +
@@ -291,22 +300,33 @@ var lesson_slides = [
 			'Le quad mesh possono essere:' +
 			'<div style="display:flex; font-size: 75%">' +
 				'<div style="flex: 1">' +
-					'<div><strong>Regular</strong></div>' +
-					'<div style="margin: 0 auto; height: 200px; width: 160px; background-image: ' +
-						'url(\'local_img/quad_mesh.png\'); background-size: cover; background-position: 0px 0;"></div>' +
+					'<div><strong>Regular</strong><p style="line-height: 1em; font-size: .5em; margin: 0">' +
+						'Tutti i vertici sono regolari</p></div>' +
+					'<div style="margin: 0 auto; height: 200px; width: 160px; background-image: url(\'' +
+						choose('local_img/quad_mesh.png',
+						'http://alice.loria.fr/publications/papers/2012/QuadStar_EG//photo/photo.png') +
+						'\'); background-size: cover; background-position: 0px 0;"></div>' +
 				'</div>' +
 				'<div style="flex: 1">' +
-					'<div><strong>Semi-regular</strong></div>' +
-					'<div style="margin: 0 auto; height: 200px; width: 160px; background-image: ' +
-						'url(\'local_img/quad_mesh.png\'); background-size: cover; background-position: -338px 0;"></div>' +
+					'<div><strong>Semi-regular</strong><p style="line-height: 1em; font-size: .5em; margin: 0">' +
+						'I vertici sono prevalentemente regolari</p></div>' +
+					'<div style="margin: 0 auto; height: 200px; width: 160px; background-image: url(\'' +
+						choose('local_img/quad_mesh.png',
+						'http://alice.loria.fr/publications/papers/2012/QuadStar_EG//photo/photo.png') +
+						'\'); background-size: cover; background-position: -338px 0;"></div>' +
 				'</div>' +
 				'<div style="flex: 1">' +
-					'<div><strong>Unstructured</strong></div>' +
-					'<div style="margin: 0 auto; height: 200px; width: 160px; background-image: ' +
-						'url(\'local_img/quad_mesh.png\'); background-size: cover; background-position: -676px 0;"></div>' +
+					'<div><strong>Unstructured</strong><p style="line-height: 1em; font-size: .5em; margin: 0">' +
+						'I vertici sono prevalentemente irregolari</p></div>' +
+					'<div style="margin: 0 auto; height: 200px; width: 160px; background-image: url(\'' +
+						choose('local_img/quad_mesh.png',
+						'http://alice.loria.fr/publications/papers/2012/QuadStar_EG//photo/photo.png') +
+						'\'); background-size: cover; background-position: -676px 0;"></div>' +
 				'</div>' +
-			'</div>', 
-			// image from http://alice.loria.fr/index.php/publications.html?redirect=0&Paper=QuadStar_EG@2012
+			'</div>' +
+			'<p class="note" style="position:relative">Immagini tratte da ' +
+				'<a href="http://alice.loria.fr/index.php/publications.html?redirect=0&Paper=QuadStar_EG@2012">' +
+				'http://alice.loria.fr/index.php/publications.html?redirect=0&Paper=QuadStar_EG@2012</a></p>',
 			
 		],
 
@@ -365,17 +385,17 @@ var lesson_slides = [
 		[
 			'Esempi corretti', '', '',
 			'<div class="fragment">' + sketchfab_code(sf_model[1]) + '</div>' +
-			'<div class="fragment" style="position:relative; top: -500px">' + sketchfab_code(sf_model[2]) + '</div>' +
-			'<div class="fragment" style="position:relative; top: -1000px">' + sketchfab_code(sf_model[3]) + '</div>' +
-			'<div class="fragment" style="position:relative; top: -1500px">' + sketchfab_code(sf_model[4]) + '</div>',
+			'<div class="fragment" style="position:relative; top: -499px">' + sketchfab_code(sf_model[2]) + '</div>' +
+			'<div class="fragment" style="position:relative; top: -998px">' + sketchfab_code(sf_model[3]) + '</div>' +
+			'<div class="fragment" style="position:relative; top: -1497px">' + sketchfab_code(sf_model[4]) + '</div>',
 		],
 
 		[
 			'Esempi non corretti', '', '',
 			'<div class="fragment">' + sketchfab_code(sf_model[5]) + '</div>' +
-			'<div class="fragment" style="position:relative; top: -500px">' + sketchfab_code(sf_model[6]) + '</div>' +
-			'<div class="fragment" style="position:relative; top: -1000px">' + sketchfab_code(sf_model[7]) + '</div>' +
-			'<div class="fragment" style="position:relative; top: -1500px">' + sketchfab_code(sf_model[8]) + '</div>',
+			'<div class="fragment" style="position:relative; top: -499px">' + sketchfab_code(sf_model[6]) + '</div>' +
+			'<div class="fragment" style="position:relative; top: -998px">' + sketchfab_code(sf_model[7]) + '</div>' +
+			'<div class="fragment" style="position:relative; top: -1497px">' + sketchfab_code(sf_model[8]) + '</div>',
 		],
 
 		[
