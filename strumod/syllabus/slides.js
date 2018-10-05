@@ -16,7 +16,7 @@ var get_lesson_date = function(d, i) {
 	dt.setDate(d.getDate() + (i * 7));
 	after_holiday = dt.getTime() > holiday.getTime();
 	date = after_holiday ? new Date(dt.getTime() + 7 * 24 * 60 * 60 * 1000) : new Date(dt);
-	return date.getDate() + '.' + (date.getMonth() + 1) + '.' + date.getFullYear()%2000;
+	return date.getDate() + '.' + (date.getMonth()) + '.' + date.getFullYear()%2000;
 }
 
 syl = [
