@@ -7,17 +7,21 @@ LOCAL = location.protocol == 'file:' ? true : false
 document.getElementById("footer").innerHTML = FOOTER;
 var choose = function(a,b){return LOCAL?a:b}
 
-var intro_date = new Date('September 18, 2018 14:15:00');
-var normal_date = new Date('September 20, 2018 09:15:00');
-var holiday = new Date('November 1, 2018 00:00:01');
+var dates = ['18.9.18', '27.9.18', '4.10.18', '11.10.18', '18.10.18', '25.10.18',
+	'8.11.18', '15.11.18', '22.11.18', '29.11.18', '6.12.18', '13.12.18', '20.12.18']
 
-var get_lesson_date = function(d, i) {
-	dt = new Date();
-	dt.setDate(d.getDate() + (i * 7));
-	after_holiday = dt.getTime() > holiday.getTime();
-	date = after_holiday ? new Date(dt.getTime() + 7 * 24 * 60 * 60 * 1000) : new Date(dt);
-	return date.getDate() + '.' + (date.getMonth()) + '.' + date.getFullYear()%2000;
-}
+
+//var intro_date = new Date('September 18, 2018 14:15:00');
+//var normal_date = new Date('September 20, 2018 09:15:00');
+//var holiday = new Date('November 1, 2018 00:00:01');
+
+//var get_lesson_date = function(d, i) {
+//	dt = new Date();
+//	dt.setDate(d.getDate() + (i * 7));
+//	after_holiday = dt.getTime() > holiday.getTime();
+//	date = after_holiday ? new Date(dt.getTime() + 7 * 24 * 60 * 60 * 1000) : new Date(dt);
+//	return date.getDate() + '.' + (date.getMonth()) + '.' + date.getFullYear()%2000;
+//}
 
 syl = [
 	'Curve @ NURBS, spline, Bézier e algoritmi di suddivisione @ ' +
@@ -29,13 +33,16 @@ syl = [
 	'Topologia @ Representation schemes, struttura di una mesh, manifold, quad mesh @ ' +
 		'<a href="https://strumet.github.io/strumod/lessons/l_02_topology/">slides</a><br>' +
 		'<a href="https://beep.metid.polimi.it/documents/150916119/0/ACT_0927">esercizi</a>',
-	'Trasformazioni @ World space e object space, matrici di trasformazione, strategie operative @',
-	'Pratica ed esercizio in aula @ #1 @',
+	'Trasformazioni @ World space e object space, matrici di trasformazione, strategie operative @ ' +
+		'<a href="https://github.com/strumet/modeling/tree/master/activities/0">attività 0</a><br>' +
+		'<a href="https://github.com/strumet/modeling/tree/master/activities/1">attività 1</a>',
+	'Pratica ed esercizio in aula @ @ ' +
+		'<a href="https://github.com/strumet/modeling/tree/master/activities/2">attività 2</a>',
 	'<div class="ex-tempore">Ex tempore</div> @ Mid-term 1 @',
 	'Casi studio #1 @ @',
 	'Casi studio #2 @ @',
 	'Casi studio #3 @ @',
-	'Pratica ed esercizio in aula @ #2 @',
+	'Pratica ed esercizio in aula @ @',
 	'<div class="ex-tempore">Ex tempore</div> @ Mid-term 2 @',
 	'Sistemi linkati @ @',
 	'Altri argomenti rilevanti @ camera transform, grafica raster, UV mapping... @',
@@ -44,10 +51,11 @@ syl = [
 
 var get_table = function(x){
 	index = syl.indexOf(x);
-	date = index > 0 ? normal_date : intro_date;
+	//date = index > 0 ? normal_date : intro_date;
 	main_note = x.split('@')
 	return '<tr>' +
-		'<td class="date">' + get_lesson_date(date, index) + '</td>' +
+		//'<td class="date">' + get_lesson_date(date, index) + '</td>' +
+		'<td class="date">' + dates[index] + '</td>' +
 		'<td><div>' + main_note[0] + '</div><span style="font-size: .66em">' + main_note[1] + '</td>' +
 		'<td style="font-style: italic; font-size: .66em">' + main_note[2] + '</td>' +
 		'</tr>'
