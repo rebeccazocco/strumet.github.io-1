@@ -38,8 +38,10 @@ syl = [
 		'<a href="https://github.com/strumet/modeling/tree/master/activities/1">attività 1</a>',
 	'Pratica ed esercizio in aula @ @ ' +
 		'<a href="https://github.com/strumet/modeling/tree/master/activities/2">attività 2</a>',
-	'<div class="ex-tempore">Ex tempore</div> @ Mid-term 1 @',
-	'Casi studio #1 @ @',
+	'<div class="ex-tempore">Ex tempore</div> @ Mid-term 1 @ ' +
+		'<a href="https://github.com/strumet/modeling/tree/master/midterm_1">midterm 1</a>',
+	'Casi studio #1 @ Architettura classica @' +
+		'<a href="https://github.com/strumet/modeling/tree/master/activities/3">attività 3</a>',
 	'Casi studio #2 @ @',
 	'Casi studio #3 @ @',
 	'Pratica ed esercizio in aula @ @',
