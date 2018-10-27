@@ -34,7 +34,7 @@ syl = [
 		'<a href="https://strumet.github.io/strumod/lessons/l_02_topology/">slides</a><br>' +
 		'<a href="https://beep.metid.polimi.it/documents/150916119/0/ACT_0927">esercizi</a>',
 	'Trasformazioni @ World space e object space, matrici di trasformazione, strategie operative @ ' +
-		'<a href="https://github.com/strumet/modeling/tree/master/activities/0">attività 0</a><br>' +
+		'<a href="https://strumet.github.io/strumod/lessons/l_03_transformation.pdf">appunti</a><br>' +
 		'<a href="https://github.com/strumet/modeling/tree/master/activities/1">attività 1</a>',
 	'Pratica ed esercizio in aula @ @ ' +
 		'<a href="https://github.com/strumet/modeling/tree/master/activities/2">attività 2</a>',
