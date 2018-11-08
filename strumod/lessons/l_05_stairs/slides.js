@@ -21,7 +21,7 @@ var lesson_slides = [
 			'Argomenti trattati', '', '',
 			'<ul>' +
 				'<li>Concetto di mappatura</li>' +
-				'<li>Uso delle curve bezier</li>' +
+				'<li>Uso delle curve bézier</li>' +
 				'<li>Cage transforming</li>' +
 			'</ul>',
 		],
