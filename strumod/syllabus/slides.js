@@ -76,10 +76,16 @@ syl = [
 	'Pratica ed esercizio in aula @ @' +
 		'<a href="https://github.com/strumet/modeling/tree/master/' +
 		'activities/6">attività 6</a>',
-	'<div class="ex-tempore">Ex tempore</div> @ Mid-term 2 @',
-	'Sistemi linkati @ @',
-	'Altri argomenti rilevanti @ camera transform, grafica raster, ' +
-		'UV mapping... @',
+	'<div class="ex-tempore">Ex tempore</div> @ Mid-term 2 @ ' +
+		'<a href="https://github.com/strumet/modeling/tree/master/' +
+		'midterm_2">midterm 2</a>',
+	'Sistemi linkati @ Gestione di scene complesse, istanze e proxy, clay ' +
+		'rendering @' +
+		'<a href="https://strumet.github.io/strumod/lessons/' +
+		'l_07_linked_systems/">argomenti</a><br>' +
+		'<a href="https://github.com/strumet/modeling/tree/master/' +
+		'activities/7">attività 7</a>',
+	'Camera matching @ @',
 	'Revisioni @ @'
 ]
 
