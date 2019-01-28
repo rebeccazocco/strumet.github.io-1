@@ -1,0 +1,209 @@
+/* progetto */
+body {
+  background-color: #FFFFFF;
+  margin: auto;
+}
+
+.your-style {
+    font-family: 'Roboto Lt';
+    font-weight: 300;
+    font-style: normal;
+}
+.up {
+  width: auto;
+  height: 80px;
+  margin:none;
+  background-color: #2F2F2F;
+}
+
+      .HH {
+          padding: 10px;
+          width: 100px;
+          height: 100px;
+          margin: auto;
+        }
+
+
+.middle{
+  width: 950px;
+  height: auto;
+  margin: auto;
+  background-color: #F7F7F7;
+}
+
+.midart {
+  width: 925px;
+  height: auto;
+  margin: auto;
+  background-color: ##F7F7F7;
+  text-align:justify;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+    .title {
+      width: 500px;
+      height: 50px;
+      margin:auto;
+      padding: 25px;
+      background-color: ##F7F7F7;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 22px;
+    }
+    .basover {
+      width: 600px;
+      height: 250px;
+      background-color: ##F7F7F7;
+      margin: auto;
+    }
+        .basics {
+          width:320px;
+          height: 200px;
+          margin: auto;
+          padding: 20px;
+          float: left;
+          text-height: 80%;
+          text-align: left;
+          margin-left: 10px;
+          }
+
+          .overview {
+            width:200px;
+            height: 200px;
+            margin: auto;
+            float: right;
+          }
+
+    .par1 {
+      width: 800px;
+      height: 170px;
+      margin: auto;
+      padding: 20px;
+      background-color: #F7F7F7;
+
+
+    }
+    .parmap {
+      width: 800px;
+      height: 250px;
+      background-color: #F7F7F7;
+      margin: auto;
+    }
+            .par2 {
+              width: 300px;
+              height: 200px;
+              padding: 40px;
+              float: left;
+              font-weight: normal;
+            }
+
+            .par2 q{
+              font-family:sans-serif;
+            }
+            .maps {
+              width: 300px;
+              height: 250px;
+
+              float: right;
+            }
+
+    .par4 {
+      width: 800px;
+      height: 275px;
+      margin: 10px auto;
+      padding: 20px;
+
+    }
+    .impar {
+      width: 920px;
+      height: 350px;
+      margin: auto;
+
+      }
+
+
+                    .par3 {
+                      width: 550px;
+                      height: 250px;
+                      margin: 20px auto;
+                      float: right;
+                      padding: 15px;
+                    }
+
+                    .image {
+                      width: 300px;
+                      height: 300px;
+                      margin: auto;
+                      float: left;
+                      padding: 10px;
+                    }
+.middledown {
+  width: auto;
+  height: 80px;
+  background-color: #2F2F2F;
+  margin: auto;
+  padding: none;
+  }
+        .md2 {
+          width:600px;
+          margin: auto;
+          display: center;
+        }
+
+        .one {
+          padding: 5px;
+          height: 50px;
+          width: 100px;
+          float: left;
+          margin: 10px 20px 10px 20px;
+          text-align: center;
+          line-height: 47px;
+        }
+
+        .one a{
+          font-size: 12px;
+          font-family: verdana;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          text-decoration: none;
+          font-weight: lighter;
+
+        }
+
+.down {
+    width: auto;
+    height: 80px;
+    margin: auto;
+    padding: none;
+    margin-right: none;
+    background-color: #2F2F2F;
+          }
+
+          .fb .ig {
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            display: inline;
+            }
+          .fb{
+            position: relative;
+            top: 20px;
+            left: 30px;
+          }
+          .ig {
+            position: relative;
+            bottom: 5px;
+            left: 60px;
+          }
+          .polimi {
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+            float: right;
+            margin: 10px;
+            position: relative;
+            bottom: 65px;
+              }
